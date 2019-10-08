@@ -29,8 +29,7 @@ Your best tools as a programmer: control flow. Looping is the quintenscence of y
 
 
 ### Standard input / standard outpout
-#### Life universe
-In this exemple we only accept *THE* response to the universe. This project add another control flow and aim to show you how to capture user a user text from the standard input. 
+
 
 ### Search
 #### Binary search
