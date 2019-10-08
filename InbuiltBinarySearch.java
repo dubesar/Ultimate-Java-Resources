@@ -5,7 +5,7 @@
 // binarySearch() in a sorted array. 
 import java.util.Arrays; 
   
-public class GFG { 
+public class BinarySearch { 
     public static void main(String[] args) 
     { 
         int arr[] = { 10, 20, 15, 22, 35 }; 
@@ -37,7 +37,7 @@ import java.util.List;
 import java.util.ArrayList; 
 import java.util.Collections; 
    
-public class GFG 
+public class BinarySearch 
 { 
     public static void main(String[] args) 
     { 
