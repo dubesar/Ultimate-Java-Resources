@@ -27,6 +27,11 @@ A dynamic array is not the same thing as a dynamically allocated array, which is
 
 [_Wikipedia_](https://en.wikipedia.org/wiki/Hash_table)
 
+#### HashSets
+> HashSet is a part of Java’s collection since Java 1.2. It provides the basic implementation of the Set interface of Java, backed by a hash table. A set is a collection that contains no duplicate elements. More formally, sets contain no pair of elements e1 and e2 such that e1.equals(e2), and at most one null element. The HashSet implementation makes no guarantees as to the iteration order of the set; in particular, it does not guarantee that the order will remain constant over time.
+
+[_Wikipedia_](https://en.wikipedia.org/wiki/Set_(abstract_data_type))
+
 
 ### Loops
 Your best tools as a programmer: control flow. Looping is the quintenscence of your work, not duplicating X times your code but factorising it and leaving a small footprint.
