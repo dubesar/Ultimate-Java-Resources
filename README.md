@@ -46,3 +46,17 @@ Your best tools as a programmer: control flow. Looping is the quintenscence of y
 >In computer science, a segment tree also known as a statistic tree is a tree data structure used for storing information about intervals, or segments. It allows querying which of the stored segments contain a given point. It is, in principle, a static structure; that is, it's a structure that cannot be modified once it's built. A similar data structure is the interval tree.
 
 [_Wikipedia_](https://en.wikipedia.org/wiki/Segment_tree)
+#### Stack
+> In computer science, a stack is an abstract data type that serves as a collection of elements, with two principal operations:
+
+>* **push**, which adds an element to the collection, and
+>* **pop**, which removes the most recently added element that was not yet removed.
+
+[_Wikipedia_](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))
+#### Queue
+>In computer science, a queue is a collection in which the entities in the collection are kept in order and the principal (or only) operations on the collection are the addition of entities to the rear terminal position, known as enqueue, and removal of entities from the front terminal position, known as dequeue. This makes the queue a First-In-First-Out (FIFO) data structure. In a FIFO data structure, the first element added to the queue will be the first one to be removed.
+
+[_Wikipedia_](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))
+
+
+
