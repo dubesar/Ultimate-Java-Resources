@@ -22,6 +22,12 @@ A dynamic array is not the same thing as a dynamically allocated array, which is
 
 [_Wikipedia_](https://en.wikipedia.org/wiki/Linked_list)
 
+#### HashMaps
+> HashMap is a part of Java’s collection since Java 1.2. It provides the basic implementation of the Map interface of Java. It stores the data in (Key, Value) pairs. To access a value one must know its key. HashMap is known as HashMap because it uses a technique called Hashing. Hashing is a technique of converting a large String to small String that represents the same String. A shorter value helps in indexing and faster searches. HashSet also uses HashMap internally. It internally uses a link list to store key-value pairs already explained in HashSet in detail and further articles.
+
+[_Wikipedia_](https://en.wikipedia.org/wiki/Hash_table)
+
+
 ### Loops
 Your best tools as a programmer: control flow. Looping is the quintenscence of your work, not duplicating X times your code but factorising it and leaving a small footprint.
 >In computer science, control flow (or flow of control) is the order in which individual statements, instructions or function calls of an imperative program are executed or evaluated. The emphasis on explicit control flow distinguishes an imperative programming language from a declarative programming language. 
