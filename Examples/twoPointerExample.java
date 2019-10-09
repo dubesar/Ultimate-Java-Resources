@@ -77,10 +77,8 @@ class LLNode {
 
 	public static void main(String[] args){
 		// create test LinkedList
-		LLNode test = new LLNode(new int[]{ 1, 2, 3, 4, 5, 
-			                                6, 7, 8, 9,10,
-								           11,12,13,14,15,
-								           16,17,18,19,20});
+		LLNode test = new LLNode(new int[]{ 1, 2, 3, 4, 5,6, 7, 8, 9,10,
+			11,12,13,14,15,16,17,18,19,20});
 		// given the above LinkedList:
 		// [1] -> [2] -> [3] -> ... -> [18] -> [19] -> [20]
 		// return midpoint [10]!
