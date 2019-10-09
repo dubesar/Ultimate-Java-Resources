@@ -48,7 +48,6 @@ Your best tools as a programmer: control flow. Looping is the quintenscence of y
 [_Wikipedia_](https://en.wikipedia.org/wiki/Segment_tree)
 #### Stack
 > In computer science, a stack is an abstract data type that serves as a collection of elements, with two principal operations:
-
 >* **push**, which adds an element to the collection, and
 >* **pop**, which removes the most recently added element that was not yet removed.
 
