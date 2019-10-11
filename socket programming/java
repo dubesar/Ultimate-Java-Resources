@@ -1,4 +1,18 @@
-The java.net package provides support for the two common network protocols −
+### WHAT IS SOCKET PROGRAMMING ?
+
+* Sockets programming is the fundamental technology behind communications on TCP/IP networks. A socket is one endpoint of a two-way link between two programs running on a network. The socket provides a bidirectional communication endpoint to send and receive data with another socket.
+
+
+* Socket connections normally run between two different computers on a local area network (LAN) or across the internet, but they can also be used for interprocess communication on a single computer.
+
+### HOW SERVER SOCKET WORKS ::
+
+* Typically, a server runs on one computer and accesses a socket that is bound to a specific port. The server waits for a different computer to make a connection request. The client computer knows the hostname of the server computer and the port number on which the server is listening. The client computer identifies itself, and — if everything goes right — the server permits the client computer to connect.
+
+
+
+
+// The java.net package provides support for the two common network protocols −:
 
 TCP − TCP stands for Transmission Control Protocol, which allows for reliable communication between two applications. TCP is typically used over the Internet Protocol, which is referred to as TCP/IP.
 
