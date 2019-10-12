@@ -91,4 +91,5 @@ Your best tools as a programmer: control flow. Looping is the quintenscence of y
 >* **Polymorphism** means one name many forms. It is further of two types — static and dynamic. Static polymorphism is achieved using method overloading and dynamic polymorphism using method overriding. It is closely related to inheritance. We can write a code that works on the superclass, and it will work with any subclass type as well.
 
 [_Wikipedia_](https://en.wikipedia.org/wiki/Object-oriented_programming), [_Medium_](https://medium.com/@cancerian0684/what-are-four-basic-principles-of-object-oriented-programming-645af8b43727)
+[Harsha]
 
