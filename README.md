@@ -4,11 +4,13 @@
 
 ### Introduction
 This repository aims at helping new Java developers. It contains examples of simple programs and algorithms. 
+
 #### Hello
 Create your first Java program! 
 > A "Hello, World!" program generally is a computer program that outputs or displays the message "Hello, World!". Such a program is very simple in most programming languages, and is often used to illustrate the basic syntax of a programming language. It is often the first program written by people learning to code.
 
-[_Wikipedia_](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)
+
+
 ### Lists
 A list is one of the most popular data structures, learn to master its concept and mysteries. Mastering lists is one of many requirements to be a good developer.
 #### ArrayList
@@ -47,6 +49,25 @@ Your best tools as a programmer: control flow. Looping is the quintenscence of y
 >In computer science, binary search, also known as half-interval search,[1] logarithmic search,[2] or binary chop,[3] is a search algorithm that finds the position of a target value within a sorted array.[4][5] Binary search compares the target value to the middle element of the array. If they are not equal, the half in which the target cannot lie is eliminated and the search continues on the remaining half, again taking the middle element to compare to the target value, and repeating this until the target value is found. If the search ends with the remaining half being empty, the target is not in the array.
 
 [_Wikipedia_](https://en.wikipedia.org/wiki/Binary_search_algorithm)
+
+#### Breadth First Search
+>Breadth First Traversal (or Search) for a graph is similar to Breadth First Traversal of a tree. The only catch here is, unlike trees, graphs may contain cycles, so we may come to the same node again. To avoid processing a node more than once, we use a boolean visited array. For simplicity, it is assumed that all vertices are reachable from the starting vertex.
+[_geeksforgeeks_](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
+
+#### Depth First Search
+>Depth-first search (DFS) is an algorithm for traversing or searching tree or graph data structures. The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking.
+[_wikipedia_](https://en.wikipedia.org/wiki/Depth-first_search)
+
+### Sorting
+#### Heap Sort
+>In computer science, heapsort is a comparison-based sorting algorithm. Heapsort can be thought of as an improved selection sort: like that algorithm, it divides its input into a sorted and an unsorted region, and it iteratively shrinks the unsorted region by extracting the largest element and moving that to the sorted region. The improvement consists of the use of a heap data structure rather than a linear-time search to find the maximum.
+
+[_Wikipedia_](https://en.wikipedia.org/wiki/Heapsort)
+
+#### Merge Sort
+>In computer science, merge sort (also commonly spelled mergesort) is an efficient, general-purpose, comparison-based sorting algorithm. Most implementations produce a stable sort, which means that the order of equal elements is the same in the input and output. Merge sort is a divide and conquer algorithm that was invented by John von Neumann in 1945.[2] A detailed description and analysis of bottom-up mergesort appeared in a report by Goldstine and von Neumann as early as 1948.
+[_Wikipedia_](https://en.wikipedia.org/wiki/Merge_sort)
+
 #### Segment Tree
 >In computer science, a segment tree also known as a statistic tree is a tree data structure used for storing information about intervals, or segments. It allows querying which of the stored segments contain a given point. It is, in principle, a static structure; that is, it's a structure that cannot be modified once it's built. A similar data structure is the interval tree.
 
