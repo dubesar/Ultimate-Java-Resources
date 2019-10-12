@@ -57,9 +57,37 @@ class BST{
 		if(!found)
 			System.out.println("Element not present!");
 	}
+
+	public void inorder(Node n) { //InOrder Tree Traversal
+		if(n!=null)
+		{
+			inorder(n.left);
+			System.out.print(n.data+"\t");
+			inorder(n.right);
+		}
+	}
+	public void preorder(Node n) { //PreOrder Tree Traversal
+		
+		if(n!=null)
+		{
+			System.out.print(n.data+"\t");
+			preorder(n.left);
+			preorder(n.right);
+		}
+	}
+	public void postorder(Node n) { //PostOrder Tree Traversal
+		
+		if(n!=null)
+		{
+			postorder(n.left);
+			postorder(n.right);
+			System.out.print(n.data+"\t");
+		}
+	}
+	
 }
 
-class BinarySearchTreeExample{
+public class BinarySearchTreeExample{
 	public static void main(String[] args){
 		int[] arr = {5,2,7,4,1,9}; //Example array
 		BST bst = new BST(arr[0]); //Setting the first element as the head of the binary search tree
@@ -73,12 +101,27 @@ class BinarySearchTreeExample{
 		bst.search(3);//Searching 3
 		bst.search(9);//Searching 9
 		bst.search(6);//Searching 6
+		
+		System.out.println("\nInOrder Traversal");
+		bst.inorder(bst.head); //InOrder Traversal (Left-Root-Right)
+		
+		System.out.println("\nPreOrder Traversal");
+		bst.preorder(bst.head);//PreOrder Traversal (Root-Left-Right)
+		
+		System.out.println("\nPostOrder Traversal");
+		bst.postorder(bst.head);//PostOrder Traversal (Left-Right-Root)
 
 		/*Output: 
 		Yes, the element is present in the tree!
 		Element not present!
 		Yes, the element is present in the tree!
 		Element not present!
+		InOrder Traversal
+		1	2	4	5	7	9	
+		PreOrder Traversal
+		5	2	1	4	7	9	
+		PostOrder Traversal
+		1	4	2	9	7	5	
 		*/
 
 	}
