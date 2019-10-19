@@ -1,13 +1,14 @@
-/*
-* For the beginners to get understand what is linear regression is do visit :https://towardsdatascience.com/linear-regression-with-example-8daf6205bd49
-*
-*
-* x =input
-* y = output
-* c = constant/intercept --| initially 1
-* a = slope              --|
-*
-* */
+
+ /* For the beginners to get understand what is linear regression is do visit :https://towardsdatascience.com/linear-regression-with-example-8daf6205bd49
+ *
+ *
+ * x =input
+ * y = output
+ * c = constant/intercept --| initially 1
+ * a = slope              --|
+ *
+ * */
+
 
 public class LinearRegression
 {
