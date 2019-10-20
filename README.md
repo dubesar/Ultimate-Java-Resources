@@ -96,3 +96,26 @@ Your best tools as a programmer: control flow. Looping is the quintenscence of y
 If sub-problems can be nested recursively inside larger problems, so that dynamic programming methods are applicable, then there is a relation between the value of the larger problem and the values of the sub-problems.[1] In the optimization literature this relationship is called the **Bellman equation**.
 
 [ Wikipedia ](https://en.wikipedia.org/wiki/Dynamic_programming)
+
+### Machine Learning
+Machine learning (ML) is the scientific study of algorithms and statistical models that computer systems use to perform a specific task without using explicit instructions, relying on patterns and inference instead. It is seen as a subset of artificial intelligence. Machine learning algorithms build a mathematical model based on sample data, known as "training data", in order to make predictions or decisions without being explicitly programmed to perform the task.[1][2]:2 Machine learning algorithms are used in a wide variety of applications, such as email filtering and computer vision, where it is difficult or infeasible to develop a conventional algorithm for effectively performing the task.
+
+Machine learning is closely related to computational statistics, which focuses on making predictions using computers. The study of mathematical optimization delivers methods, theory and application domains to the field of machine learning. Data mining is a field of study within machine learning, and focuses on exploratory data analysis through unsupervised learning.[3][4] In its application across business problems, machine learning is also referred to as predictive analytics.
+### Networking
+Networking, also known as computer networking, is the practice of transporting and exchanging data between nodes over a shared medium in an information system. Networking comprises not only the design, construction and use of a network, but also the management, maintenance and operation of the network infrastructure, software and policies.
+
+Computer networking enables devices and endpoints to be connected to each other on a local area network (LAN) or to a larger network, such as the internet or a private wide area network (WAN). This is an essential function for service providers, businesses and consumers worldwide to share resources, use or offer services, and communicate. Networking facilitates everything from telephone calls to text messaging to streaming video to the internet of things (IoT).
+
+The level of skill required to operate a network directly correlates to the complexity of a given network. For example, a large enterprise may have thousands of nodes and rigorous security requirements, such as end-to-end encryption, requiring specialized network administrators to oversee the network.
+
+At the other end of the spectrum, a layperson may set up and perform basic troubleshooting for a home Wi-Fi network with a short instruction manual. Both examples constitute computer networking.
+### socket programming
+Socket programming is a way of connecting two nodes on a network to communicate with each other. One socket(node) listens on a particular port at an IP, while other socket reaches out to the other to form a connection. Server forms the listener socket while client reaches out to the server.
+Socket creation:
+int sockfd = socket(domain, type, protocol)
+sockfd: socket descriptor, an integer (like a file-handle)
+domain: integer, communication domain e.g., AF_INET (IPv4 protocol) , AF_INET6 (IPv6 protocol)
+type: communication type
+SOCK_STREAM: TCP(reliable, connection oriented)
+SOCK_DGRAM: UDP(unreliable, connectionless)
+protocol: Protocol value for Internet Protocol(IP), which is 0. This is the same number which appears on protocol field in the IP header of a packet.(man protocols for more details)
