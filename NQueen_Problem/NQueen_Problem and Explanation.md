@@ -19,7 +19,7 @@ We first place the first queen anywhere arbitrarily and then place the next quee
 
 
  
-**if(n==0)**→ If there is no queen left, it means all queens are placed and we have got a solution.
+**if(n==0)** → If there is no queen left, it means all queens are placed and we have got a solution.
 
 **if((!is_attack(i,j)) && (board[i][j]!=1))** → We are just checking if the cell is available to place a queen or not.
 **is_attack** function will check if the cell is under attack by any other queen and **board[i][j]!=1** is making sure that the cell is vacant. If these conditions are met then we can put a queen in the cell – **board[i][j] = 1**.
@@ -32,15 +32,14 @@ Input:
 If, the size of a chess board is 8 x 8.
 Output:
 The matrix that represents in which row and column the N Queens can be placed.
-
-1 0 0 0 0 0 0 0
-0 0 0 0 0 0 1 0
-0 0 0 0 1 0 0 0
-0 0 0 0 0 0 0 1
-0 1 0 0 0 0 0 0
-0 0 0 1 0 0 0 0
-0 0 0 0 0 1 0 0
-0 0 1 0 0 0 0 0
+- 1 0 0 0 0 0 0 0
+- 0 0 0 0 0 0 1 0
+- 0 0 0 0 1 0 0 0
+- 0 0 0 0 0 0 0 1
+- 0 1 0 0 0 0 0 0
+- 0 0 0 1 0 0 0 0
+- 0 0 0 0 0 1 0 0
+- 0 0 1 0 0 0 0 0
 
 In this output, the value 1 indicates the correct place for the queens.
 
