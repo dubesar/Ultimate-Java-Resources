@@ -23,7 +23,7 @@ the privateKey.pem and the publicKey.pem.
 
 **sign** → This is a function that receives the data and the privateKeyFilePath, creating a Signature with the SHA1withRSA algorithm. 
 Then, we initialize it with our privateKey, that is in a file, so, we need to call a function to retrieve only the privateKey of this file.
-With the Signature initilized with the privateKey, we call the update() method, to update de data to be signed, and call the sign() method to 
+With the Signature initilized with the privateKey, we call the *update()* method, to update de data to be signed, and call the *sign()* method to 
 return a array of bytes containing the signedData.
 
 **getPrivate** →  This is a function that receives the privateKeyFilePath, and read each file line to a List element. 
@@ -35,7 +35,7 @@ of the privateKey saved in the file.
 
 **verifySignature** → This is a function that receives the data, the signedData and the publicKeyFilePath, creating a Signature with the SHA1withRSA algorithm. 
 Then, we initialize it with our publicKey, that is in a file, so, we need to call a function to retrieve only the publicKey of this file.
-With the Signature initilized with the publicKey, we call the update() method, to update de data to be verifyed, and call the verify() method to verify if the 
+With the Signature initilized with the publicKey, we call the *update()* method, to update de data to be verifyed, and call the *verify()* method to verify if the 
 signedData is the same value of the unsignedData, verify if the signedData was signed with the privateKey from the same keyPair of the publicKey, etc. 
 It returns boolean result, true or false.
 
@@ -46,10 +46,8 @@ With the encodedKey, we decode the Base64 and obtain the byte array of the publi
 encoded according to the ASN.1 encoding. With this spec, we can call keyFactory to generate a publicKey from this spec, creating a instance 
 of the publicKey saved in the file.
 
-**main** →  This is the mainfuction, that calls generateKeyPair() to generate the keyPair that will be used to signand verify the data. Then, it calls the
+**main** →  This is the mainfuction, that calls *generateKeyPair()* to generate the keyPair that will be used to signand verify the data. Then, it calls the
 method writeKeyToFile, passing the arguments Folder, that will be saved the PEM files, and the keyPair that will be splited in 2 PEM files in the folder.
 With the PEM files created, it creates the byte array signedData, that will receive the signed data, and the verifySignedData, that will be verify the signedData.
 To finalize, it prints the value of the data to be signed, the signedData byte array encoded as Base64, and verify if the signedData is valid or not, 
 printing the message on the screen. 
-
-
