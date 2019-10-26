@@ -42,12 +42,13 @@ Your best tools as a programmer: control flow. Looping is the quintenscence of y
 
 
 
-
-
 ### Search
+#### Linear search
+>In computer science, a linear search or sequential search is a method for finding an element within a list. It sequentially checks each element of the list until a match is found or the whole list has been searched.[1] A linear search runs in at worst linear time and makes at most n comparisons, where n is the length of the list. If each element is equally likely to be searched, then linear search has an average case of n/2 comparisons, but the average case can be affected if the search probabilities for each element vary. Linear search is rarely practical because other search algorithms and schemes, such as the binary search algorithm and hash tables, allow significantly faster searching for all but short lists.[2]
+[_Wikipedia_](https://en.wikipedia.org/wiki/Linear_search)
+
 #### Binary search
 >In computer science, binary search, also known as half-interval search,[1] logarithmic search,[2] or binary chop,[3] is a search algorithm that finds the position of a target value within a sorted array.[4][5] Binary search compares the target value to the middle element of the array. If they are not equal, the half in which the target cannot lie is eliminated and the search continues on the remaining half, again taking the middle element to compare to the target value, and repeating this until the target value is found. If the search ends with the remaining half being empty, the target is not in the array.
-
 [_Wikipedia_](https://en.wikipedia.org/wiki/Binary_search_algorithm)
 
 #### Breadth First Search
