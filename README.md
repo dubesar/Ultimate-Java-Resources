@@ -126,8 +126,9 @@ SOCK_STREAM: TCP(reliable, connection oriented)
 SOCK_DGRAM: UDP(unreliable, connectionless)
 protocol: Protocol value for Internet Protocol(IP), which is 0. This is the same number which appears on protocol field in the IP header of a packet.(man protocols for more details)
 
-### Fundameltal Programming
-####Data type: a classification of data that determines how the compiler or interpreter will process the data. It defines the allowable operations on the data, the meaning of the data, and how the data can be stored.
+### Fundamental Programming
+#### Data type: 
+A classification of data that determines how the compiler or interpreter will process the data. It defines the allowable operations on the data, the meaning of the data, and how the data can be stored.
 
 #### Function: 
 A clustered sequence of operation to perform a well defined action. Different programming languages uses different terminology for functions: methods, sub-routines, procedures. Function introduces a key concept in programming called scope.
