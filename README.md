@@ -73,7 +73,7 @@ Your best tools as a programmer: control flow. Looping is the quintenscence of y
 >Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted. The algorithm, which is a comparison sort, is named for the way smaller or larger elements "bubble" to the top of the list. Although the algorithm is simple, it is too slow and impractical for most problems even when compared to insertion sort.[2] Bubble sort can be practical if the input is in mostly sorted order with some out-of-order elements nearly in position.
 [_Wikipedia_](https://en.wikipedia.org/wiki/Bubble_sort)
 
-#### Selection Sort
+#### Selection Sort 
 >In computer science, selection sort is a sorting algorithm, specifically an in-place comparison sort. It has O(n2) time complexity, making it inefficient on large lists, and generally performs worse than the similar insertion sort. Selection sort is noted for its simplicity, and it has performance advantages over more complicated algorithms in certain situations, particularly where auxiliary memory is limited.
 [_Wikipedia_](https://en.wikipedia.org/wiki/Selection_sort)
 
