@@ -1,4 +1,4 @@
-## CompetitiveJava
+## Java Programming
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com) 
 
@@ -7,7 +7,7 @@ This repository aims at helping new Java developers. It contains examples of sim
 
 #### Hello
 Create your first Java program! 
-> A "Hello, World!" program generally is a computer program that outputs or displays the message "Hello, World!". Such a program is very simple in most programming languages, and is often used to illustrate the basic syntax of a programming language. It is often the first program written by people learning to code.
+>A "Hello, World!" program is a computer program that outputs or displays "Hello, World!" to the user. Being a very simple program in most programming languages, it is often used to illustrate the basic syntax of a programming language for a working program.
 
 
 
@@ -125,3 +125,18 @@ type: communication type
 SOCK_STREAM: TCP(reliable, connection oriented)
 SOCK_DGRAM: UDP(unreliable, connectionless)
 protocol: Protocol value for Internet Protocol(IP), which is 0. This is the same number which appears on protocol field in the IP header of a packet.(man protocols for more details)
+
+### Fundamental Programming
+#### Data type: 
+A classification of data that determines how the compiler or interpreter will process the data. It defines the allowable operations on the data, the meaning of the data, and how the data can be stored.
+
+#### Function: 
+A clustered sequence of operation to perform a well defined action. Different programming languages uses different terminology for functions: methods, sub-routines, procedures. Function introduces a key concept in programming called scope.
+
+#### Dynamics: 
+The dynamics of data and function is provided by the looping and iteration rules — also referred to as Control Structure. It literally controls the structure of your program. The ‘for’ loop and ‘while’ loop are some example of providing a dynamic to the whole program. These dynamics allow the programming language to solve problems in a faster way. These dynamics provides the ‘DRY’ principle a role in programming.
+
+#### Programming Paradigms:
+The different language paradigms developed over the years are developed due to the developer’s different mind-set of what to emphasize, data or functions. Object-oriented languages are more inclined to think that everything in the universe is an object. The functional language thinks that everything in the universe is function. The essence of functional programming is that programs are a combination of expression. Expression includes concrete values, variables, and also functions. 
+
+[ Medium ](https://codeburst.io/fundamentals-of-programming-f804d7cf793e)
