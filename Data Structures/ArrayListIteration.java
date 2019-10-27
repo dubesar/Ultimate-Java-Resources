@@ -20,7 +20,7 @@ public class ArrayListIteration {
             System.out.println(animal); 
         }
 	    
-		// Iteration Using For Each
+		// Iteration Using For Each Loop
 		animals.forEach(System.out::println);
 		
 		// Iteration Using Iterator. 
