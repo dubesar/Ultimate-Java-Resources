@@ -11,3 +11,6 @@ Below is a list of resources related to Dynamic Programming.
 4. [https://www.hackerearth.com/challenge/competitive/codemonk-dynamic-programming-part-i/problems/](https://www.hackerearth.com/challenge/competitive/codemonk-dynamic-programming-part-i/problems/) is a hackerearth link to beginner problems.
 5. [https://www.hackerearth.com/practice/algorithms/dynamic-programming/bit-masking/tutorial/](https://www.hackerearth.com/practice/algorithms/dynamic-programming/bit-masking/tutorial/) is a link for Dynamic Programming with bit masking.
 6. [http://codeforces.com/blog/entry/20935](http://codeforces.com/blog/entry/20935) DP on trees.
+7. [https://stackabuse.com/dynamic-programming-in-java/](https://stackabuse.com/dynamic-programming-in-java/) introduction lecture with lots of code examples.
+8. [https://medium.com/cs-dojo/an-introduction-to-dynamic-programming-89fdd3549d54](https://medium.com/cs-dojo/an-introduction-to-dynamic-programming-89fdd3549d54) introduction to dynamic programming with emphasis on optimization.
+9. [https://www.youtube.com/watch?v=YBSt1jYwVfU&list=PLl0KD3g-oDOGJUdmhFk19LaPgrfmAGQfo] (https://www.youtube.com/watch?v=YBSt1jYwVfU&list=PLl0KD3g-oDOGJUdmhFk19LaPgrfmAGQfo) Check out this awesome video series by Errichto on Dynamic Programming.
