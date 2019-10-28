@@ -146,6 +146,7 @@ If sub-problems can be nested recursively inside larger problems, so that dynami
 Machine learning (ML) is the scientific study of algorithms and statistical models that computer systems use to perform a specific task without using explicit instructions, relying on patterns and inference instead. It is seen as a subset of artificial intelligence. Machine learning algorithms build a mathematical model based on sample data, known as "training data", in order to make predictions or decisions without being explicitly programmed to perform the task.[1][2]:2 Machine learning algorithms are used in a wide variety of applications, such as email filtering and computer vision, where it is difficult or infeasible to develop a conventional algorithm for effectively performing the task.
 
 Machine learning is closely related to computational statistics, which focuses on making predictions using computers. The study of mathematical optimization delivers methods, theory and application domains to the field of machine learning. Data mining is a field of study within machine learning, and focuses on exploratory data analysis through unsupervised learning.[3][4] In its application across business problems, machine learning is also referred to as predictive analytics.
+[_Wikipedia_](https://en.wikipedia.org/wiki/Machine_learning)
 
 ### Networking
 
@@ -156,6 +157,7 @@ Computer networking enables devices and endpoints to be connected to each other 
 The level of skill required to operate a network directly correlates to the complexity of a given network. For example, a large enterprise may have thousands of nodes and rigorous security requirements, such as end-to-end encryption, requiring specialized network administrators to oversee the network.
 
 At the other end of the spectrum, a layperson may set up and perform basic troubleshooting for a home Wi-Fi network with a short instruction manual. Both examples constitute computer networking.
+[_TechTarget_](https://searchnetworking.techtarget.com/definition/networking)
 
 ### Socket Programming
 
@@ -168,23 +170,26 @@ type: communication type
 SOCK_STREAM: TCP(reliable, connection oriented)
 SOCK_DGRAM: UDP(unreliable, connectionless)
 protocol: Protocol value for Internet Protocol(IP), which is 0. This is the same number which appears on protocol field in the IP header of a packet.(man protocols for more details)
+[_geeksforgeeks_](https://www.geeksforgeeks.org/socket-programming-cc/)
 
 ### Fundamental Programming
 
 #### Data type
 
 A classification of data that determines how the compiler or interpreter will process the data. It defines the allowable operations on the data, the meaning of the data, and how the data can be stored.
+[_codeburst_](https://codeburst.io/fundamentals-of-programming-f804d7cf793e)
 
 #### Function
 
 A clustered sequence of operation to perform a well defined action. Different programming languages uses different terminology for functions: methods, sub-routines, procedures. Function introduces a key concept in programming called scope.
+[_codeburst_](https://codeburst.io/fundamentals-of-programming-f804d7cf793e)
 
 #### Dynamics
 
 The dynamics of data and function is provided by the looping and iteration rules — also referred to as Control Structure. It literally controls the structure of your program. The ‘for’ loop and ‘while’ loop are some example of providing a dynamic to the whole program. These dynamics allow the programming language to solve problems in a faster way. These dynamics provides the ‘DRY’ principle a role in programming.
+[_codeburst_](https://codeburst.io/fundamentals-of-programming-f804d7cf793e)
 
 #### Programming Paradigms
 
-The different language paradigms developed over the years are developed due to the developer’s different mind-set of what to emphasize, data or functions. Object-oriented languages are more inclined to think that everything in the universe is an object. The functional language thinks that everything in the universe is function. The essence of functional programming is that programs are a combination of expression. Expression includes concrete values, variables, and also functions. 
-
+The different language paradigms developed over the years are developed due to the developer’s different mind-set of what to emphasize, data or functions. Object-oriented languages are more inclined to think that everything in the universe is an object. The functional language thinks that everything in the universe is function. The essence of functional programming is that programs are a combination of expression. Expression includes concrete values, variables, and also functions.
 [Medium](https://codeburst.io/fundamentals-of-programming-f804d7cf793e)
