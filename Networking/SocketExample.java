@@ -36,7 +36,7 @@ class SocketServerExample {
 	
         public void startServer(int port) { // method startServer recive int port value
         try {
-            //Start the server in informed port and wait for connection
+            //Start the server in informed port and wait for connection to initiate
             ServerSocket server = new ServerSocket(port);
             System.out.println("Server Started. Waiting for connection ...");
             
