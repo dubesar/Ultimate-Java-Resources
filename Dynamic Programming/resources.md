@@ -15,3 +15,6 @@ Below is a list of resources related to Dynamic Programming.
 8. [https://medium.com/cs-dojo/an-introduction-to-dynamic-programming-89fdd3549d54](https://medium.com/cs-dojo/an-introduction-to-dynamic-programming-89fdd3549d54) introduction to dynamic programming with emphasis on optimization.
 9. [https://www.youtube.com/watch?v=YBSt1jYwVfU&list=PLl0KD3g-oDOGJUdmhFk19LaPgrfmAGQfo](https://www.youtube.com/watch?v=YBSt1jYwVfU&list=PLl0KD3g-oDOGJUdmhFk19LaPgrfmAGQfo) Check out this awesome video series by Errichto on Dynamic Programming.
 10. [https://codeforces.com/blog/entry/67679](https://codeforces.com/blog/entry/67679) A complete reference guide to Dynamic Programming.
+11. [https://medium.com/@codingfreak/top-10-dynamic-programming-problems-5da486eeb360](https://medium.com/@codingfreak/top-10-dynamic-programming-problems-5da486eeb360) Dynamic programming problem set commented.
+12. [https://www.geeksforgeeks.org/top-20-dynamic-programming-interview-questions/](https://www.geeksforgeeks.org/top-20-dynamic-programming-interview-questions/9) Another dynamic programming problem set commented.
+13. [https://www.geeksforgeeks.org/dynamic-programming/](https://www.geeksforgeeks.org/dynamic-programming/) Dynamic programming concepts and problems for training.
