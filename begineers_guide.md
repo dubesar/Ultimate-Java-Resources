@@ -1,4 +1,5 @@
-# Resources for Begineers - best tutorials to understand the basics
+### Resources for Begineers - best tutorials to understand the basics
+##### Follow this series to be comfortable with the concepts
 
 
 https://medium.com/@madhupathy/a-beginners-guide-to-java-part-1-of-3-33edf47e47b4
