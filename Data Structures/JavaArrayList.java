@@ -34,4 +34,5 @@ FUNCTION RELATED TO ARRAYLIST
 18.void retainAll(Collection<?> c):It is used to retain all the elements in the list that are present in the specified collection.
 19.void sort(Comparator<? super E> c):It is used to sort the elements of the list on the basis of specified comparator.
 20.int size():It is used to return the number of elements present in the list.
+21.<T> [] sublist(int start, int end) : Use to get the sublist of the list 
 */
