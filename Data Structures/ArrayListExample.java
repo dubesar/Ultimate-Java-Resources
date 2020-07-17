@@ -32,6 +32,10 @@ public class CreateArrayListExample {
 	//sorting the list
 	Collections.sort(animals);
 	System.out.println(animals);
+	 
+	//Reverse the Arraylist    
+	Collections.reverse(animals);
+	System.out.println(animals);
 
     }
 }
