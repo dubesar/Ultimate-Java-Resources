@@ -133,6 +133,8 @@ public class CollectionsFramework {
         // Use get method to get the element at index 1 
         int elementAt1 = intArr.get(1); 
         System.out.println("The Element at index 1 now is " + elementAt1); 
+      
+        Collections.reverse(intArr);  // reversing an arraylist
 
 
         //-------------------------------------------------------------------------------
