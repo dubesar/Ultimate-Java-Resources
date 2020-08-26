@@ -135,6 +135,8 @@ public class CollectionsFramework {
         System.out.println("The Element at index 1 now is " + elementAt1); 
       
         Collections.reverse(intArr);  // reversing an arraylist
+      
+        List<Integer> arr = intArr.subList(st,en);       // slicing of arraylist in java List is an interface of arraylist
 
 
         //-------------------------------------------------------------------------------
