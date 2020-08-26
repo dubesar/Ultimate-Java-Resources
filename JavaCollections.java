@@ -293,7 +293,7 @@ public class CollectionsFramework {
         strHashSet.add("HashSet"); 
           
         // Create an Iterator to traverse through the HashSet 
-        Iterator<String> hsIterator = strHashSet.iterator(); 
+        Iterator<String> hsIterator = strHashSet.iterator();   // will be Integer if it is a integer.
           
         // Print all the elements of the HashSet 
         System.out.println("Contents of HashSet : "); 
