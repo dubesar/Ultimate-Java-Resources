@@ -3,7 +3,7 @@ class LIS
 { 
 	static int liss(int a[],int n) 
 	{ 
-		int lis[n]; 
+		int lis[] = new int[n];
 		int i,j,max = 0; 
 
 		for ( i = 0; i < n; i++ ) 

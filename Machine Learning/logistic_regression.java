@@ -15,7 +15,7 @@ public class LogisticRegressionDemo {
 	public static final String TRAINING_DATA_SET_FILENAME="weather.nominal.arff";
 	public static final String TESTING_DATA_SET_FILENAME="weather.nominal .test.arff";
 	public static final String PREDICTION_DATA_SET_FILENAME="weather.nominal-confused.arff";
-	 * This method is to load the data set.
+	/* * This method is to load the data set.
 	 * @param fileName
 	 * @return
 	 * @throws IOException
