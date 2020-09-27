@@ -7,3 +7,10 @@ As you can see, manipulators give a lot of room for developers to control how th
 As per [JavaBeans](https://www.oracle.com/java/technologies/javase/javabeans-spec.html) naming conventions, manipulators (or setters) should be named as `set<Datafield>(param args)`, where `<Datafield>` is the datafield you want to modify.
 
 ### Example
+```java
+// A very barebones java class demonstrating manipulators
+
+public class Userinfo() {
+    }
+}
+```
