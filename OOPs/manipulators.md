@@ -11,6 +11,20 @@ As per [JavaBeans](https://www.oracle.com/java/technologies/javase/javabeans-spe
 // A very barebones java class demonstrating manipulators
 
 public class Userinfo() {
+        private String username;
+        private String password; // This is just an example, don't actually do this due to security reasons
+        private int userNumber;
+        private static numOfUsers = 0;
+
+        public Userinfo() {
+            userNumber = numOfUsers++; // Assign user number before incrementing
+            username = "user-" + userNumber;
+            password = "";
+        }
+        
+        public setUsername(String newUsername) {
+        
+        }
     }
 }
 ```
