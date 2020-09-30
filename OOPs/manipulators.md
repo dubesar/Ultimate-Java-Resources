@@ -56,4 +56,4 @@ public class Userinfo() {
     }
 }
 ```
-The example above is a class for storing userdata. At the moment, there are only two pieces of data that are stored - a username and a password. They are set to private so that not everyone can change it. In order to implement a proper method to change the variables, you must use maniuplators (`setUsername()` & `setPassword()`) to implement a password check.
+The example above is a class for storing userdata. At the moment, there are only two pieces of data that are stored - a username and a password. They are set to type `private`, which is a good practice of OOP. In order to change the variables, you must use maniuplators (`setUsername()` & `setPassword()`) which implements a password check before changing.
