@@ -1,5 +1,5 @@
 ### Note
-To run the app, download the code. Then, sign up on openweathermap and issue a free API KEY. Now store this API KEY in QueryUtils.java as a String variable called ```API_KEY```.
+To run the app, download the code. Then, sign up on openweathermap and issue a free API KEY. Now store this API KEY in ``QueryUtils.java`` as a String variable called ```API_KEY```.
 
 ## Overview
 This is a basic app to **show weather information of the current location of the Android device.** This app is great for beginners to understand. The app :-
