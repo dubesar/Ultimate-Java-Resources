@@ -21,15 +21,33 @@ public class Userinfo() {
         username = "user-" + userNumber;
         password = "";
     }
-        
-    // Set new username after checking for password
-    public void setUsername(String newUsername, String confirmPassword) {
-            
+    
+    public Userinfo(String username, String password) {
+        userNumber = numOfUsers++; // Assign user number before incrementing
+        this.username = username;
+        this.password = password;
     }
         
-    // Set new password 
-    public void setPassword(String newPassword, String confirmPassword) {
+    // Set new username with password, returns success state
+    public void setUsername(String newUsername, String confirmPassword) {
+        if (checkPassword(confirmPassword) {
+            username = newUsername;
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
         
+    // Set new password with password, returns success state
+    public boolean setPassword(String newPassword, String confirmPassword) {
+        if (checkPassword(confirmPassword)) {
+            password = newPassword;
+            return true;
+        }
+        else {
+            return false;
+        }
     }
     
     // Check password
@@ -38,3 +56,4 @@ public class Userinfo() {
     }
 }
 ```
+The example above is a class for storing userdata. At the moment, there are only two pieces of data that are stored - a username and a password. They are set to private so that not everyone can change it. In order to implement a proper method to change the variables, you must use maniuplators (`setUsername()` & `setPassword()`) to implement a password check.
