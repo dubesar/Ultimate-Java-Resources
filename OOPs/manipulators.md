@@ -11,20 +11,30 @@ As per [JavaBeans](https://www.oracle.com/java/technologies/javase/javabeans-spe
 // A very barebones java class demonstrating manipulators
 
 public class Userinfo() {
-        private String username;
-        private String password; // This is just an example, don't actually do this due to security reasons
-        private int userNumber;
-        private static numOfUsers = 0;
-
-        public Userinfo() {
-            userNumber = numOfUsers++; // Assign user number before incrementing
-            username = "user-" + userNumber;
-            password = "";
-        }
+    private String username;
+    private String password; // This is just an example, don't actually do this due to security reasons
+    private int userNumber;
+    private static numOfUsers = 0;
+    
+    public Userinfo() {
+        userNumber = numOfUsers++; // Assign user number before incrementing
+        username = "user-" + userNumber;
+        password = "";
+    }
         
-        public setUsername(String newUsername) {
+    // Set new username after checking for password
+    public void setUsername(String newUsername, String confirmPassword) {
+            
+    }
         
-        }
+    // Set new password 
+    public void setPassword(String newPassword, String confirmPassword) {
+        
+    }
+    
+    // Check password
+    private boolean checkPassword(String attemptPassword) {
+        return attemptPassword.equals(password);
     }
 }
 ```
