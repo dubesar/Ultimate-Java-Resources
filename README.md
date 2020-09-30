@@ -86,6 +86,10 @@ Your best tools as a programmer: control flow. Looping is the quintenscence of y
   
 [_Wikipedia_](https://en.wikipedia.org/wiki/Bubble_sort)
 
+#### Selection Sort 
+>In computer science, selection sort is a sorting algorithm, specifically an in-place comparison sort. It has O(n2) time complexity, making it inefficient on large lists, and generally performs worse than the similar insertion sort. Selection sort is noted for its simplicity, and it has performance advantages over more complicated algorithms in certain situations, particularly where auxiliary memory is limited.
+[_Wikipedia_](https://en.wikipedia.org/wiki/Selection_sort)
+
 #### QuickSort
 >Quicksort (sometimes called partition-exchange sort) is an efficient sorting algorithm, serving as a systematic method for placing the elements of a random access file or an array in order. Quicksort is a comparison sort, meaning that it can sort items of any type for which a "less-than" relation (formally, a total order) is defined. 
   
