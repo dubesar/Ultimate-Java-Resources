@@ -61,11 +61,11 @@ ___
 
 Visit the [Android Development](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects) repository if you would like to see examples for the following Java programs.
 
-- Countdown Timer App
-- Github Profiles App
-- Meme Share App
-- Password Generator App
-- Weather Report
+- [Countdown Timer App](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects/CountdownTimerApp)
+- [Github Profiles App](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects/GithubProfilesApp)
+- [Meme Share App](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects/MemeShareApp)
+- [Password Generator App](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects/PasswordGeneratorApp)
+- [Weather Report](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects/WeatherReport)
 
 ___
 
@@ -73,9 +73,9 @@ ___
 
 Visit the [Machine Learning](https://github.com/dubesar/Java-A-Z/tree/master/Machine%20Learning) repository if you would like to see examples for the following Java programs.
 
-- Linear Regression
-- KMeans 2D
-- Logistic Regression
+- [Linear Regression](https://github.com/dubesar/Java-A-Z/blob/master/Machine%20Learning/LinearRegression.java)
+- [KMeans 2D](https://github.com/dubesar/Java-A-Z/blob/master/Machine%20Learning/kmeans2d.java)
+- [Logistic Regression](https://github.com/dubesar/Java-A-Z/blob/master/Machine%20Learning/logistic_regression.java)
 
 ___
 
