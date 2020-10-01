@@ -27,6 +27,7 @@ Each of the main topics have been divided into further sub categories.
 | Android Development | Weather Report, GithubProfile App, DiceRoller, Password Generator, MemeShare App, CountDown Timer| 
 | Machine Learning | Linear Regression, Logistic Regression, KMeans2d |
 | Networking & Security | Socket, Key Pair, Signature, Socket Programming, Thread Programming |
+| Operating System | ProducerConsumer |
 | OOP | Abstraction, Encapsulation, Inheritance, Polymorphism, Manipulators|
 
 
