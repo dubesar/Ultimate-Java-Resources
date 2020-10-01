@@ -27,7 +27,7 @@ Each of the main topics have been divided into further sub categories.
 | Android Development | Weather Report, GithubProfile App, DiceRoller, Password Generator| 
 | Machine Learning | Linear Regression, Logistic Regression, KMeans2d |
 | Networking & Security | Socket, Key Pair, Signature, Socket Programming, Thread Programming |
-| OOP | Abstraction, Encapsulation, Inheritance, Polymorphism |
+| OOP | Abstraction, Encapsulation, Inheritance, Polymorphism, Manipulators|
 
 
 #### Project Maintainers
