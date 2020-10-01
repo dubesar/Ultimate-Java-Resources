@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:id="@+id/dice"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/dice_1"
+        android:layout_marginTop="100dp"
+        />
+    <Button
+        android:id="@+id/btn"
+
+        android:text="@string/roll"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_marginTop="100dp"
+        />
+
+
+</LinearLayout>
