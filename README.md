@@ -43,6 +43,66 @@ Visit the [Data Structures](https://github.com/dubesar/Java-A-Z/tree/master/Data
 - Loops
 - Segment Tree, Tree Traversal
 
+___
+
+### Algorithms
+
+Visit the [Algorithms](https://github.com/dubesar/Java-A-Z/tree/master/Algorithms) repository if you would like to see examples for the following Java programs.
+
+- Breadth First Search, Depth First Search
+- Counting Sort, Heap Sort, Merge Sort, Bubble Sort, Quick Sort, Topological Sort,  Bubble Sort
+- Dijkstra
+- Binary Search, Interpolation Search, Ternary Search
+- Segment Tree, Tree Traversal
+
+___
+
+### Android Development
+
+Visit the [Android Development](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects) repository if you would like to see examples for the following Java programs.
+
+- Countdown Timer App
+- Github Profiles App
+- Meme Share App
+- Password Generator App
+- Weather Report
+
+___
+
+### Machine Learning
+
+Visit the [Machine Learning](https://github.com/dubesar/Java-A-Z/tree/master/Machine%20Learning) repository if you would like to see examples for the following Java programs.
+
+- Linear Regression
+- KMeans 2D
+- Logistic Regression
+
+___
+
+### Network & Security 
+
+Visit the [Network](https://github.com/dubesar/Java-A-Z/tree/master/Networking) & [Security](https://github.com/dubesar/Java-A-Z/tree/master/Security) repository if you would like to see examples for the following Java programs.
+
+- [Socket Programming](https://github.com/dubesar/Java-A-Z/tree/master/socket%20programming)
+- [Thread Programming](https://github.com/dubesar/Java-A-Z/tree/master/Thread_Programming)
+- [Columnar Cipher](https://github.com/dubesar/Java-A-Z/blob/master/Networking/columnarcipher.java)
+- [Rectangular Parity](https://github.com/dubesar/Java-A-Z/blob/master/Networking/rectparity.java)
+- [Key Pair](https://github.com/dubesar/Java-A-Z/tree/master/Security/KeyPair)
+- [Signature](https://github.com/dubesar/Java-A-Z/tree/master/Security/Signature)
+- [SecureRandom](https://github.com/dubesar/Java-A-Z/tree/master/Security/SecureRandom)
+
+___
+
+### Object-Oriented Programming
+
+Visit the [OOP](https://github.com/dubesar/Java-A-Z/tree/master/OOPs) repository if you would like to see examples for the following Java programs.
+
+- [Abstraction](https://github.com/dubesar/Java-A-Z/blob/master/OOPs/abstraction.md)
+- [Encapsulation](https://github.com/dubesar/Java-A-Z/blob/master/OOPs/encapsulation.md)
+- [Inheritance](https://github.com/dubesar/Java-A-Z/blob/master/OOPs/encapsulation.md)
+- [Manipulators](https://github.com/dubesar/Java-A-Z/blob/master/OOPs/encapsulation.md)
+- [Polymorphism](https://github.com/dubesar/Java-A-Z/blob/master/OOPs/encapsulation.md)
+
 
 #### Project Maintainers
 This project is founded and actively maintained by [ Sarvesh Dubey ](https://github.com/dubesar) . A Machine Learning Developer And GCI - 2019 Mentor @tensorflow
