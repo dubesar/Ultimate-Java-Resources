@@ -1,6 +1,9 @@
 import java.io.*; 
 import java.util.*;
 
+//https://www.geeksforgeeks.org/synchronized-in-java/
+
+//A class to print a message
 class Printer{
     synchronized void printDocument(int n,String s){
         for(int i=0;i<10;i++){
@@ -9,6 +12,7 @@ class Printer{
     }
 }
 
+//first thread
 class MyThread extends Thread{
     Printer mRef;
 
@@ -22,6 +26,7 @@ class MyThread extends Thread{
     }
 }
 
+//second thread
 class YourThread extends Thread{
     Printer yRef;
 
@@ -35,11 +40,17 @@ class YourThread extends Thread{
     }
 }
 
+//Driver Class
 class MyClass{
     public static void main(String args[]){
+        //operation
         Printer printer=new Printer();
+        
+        
         MyThread myThread=new MyThread(printer);
         YourThread yourThread=new YourThread(printer);
+        
+        //start thread
         myThread.start();
         yourThread.start();
     }
