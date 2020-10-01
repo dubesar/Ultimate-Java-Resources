@@ -28,3 +28,7 @@ Each of the main topics have been divided into further sub categories.
 | Machine Learning | Linear Regression, Logistic Regression |
 | Networking & Security | Socket, Key Pair, Signature, Socket Programming, Thread Programming |
 | OOP | Abstraction, Encapsulation, Inheritance, Polymorphism |
+
+
+#### Project Maintainers
+This project is founded and actively maintained by [ Sarvesh Dubey ](https://github.com/dubesar) . A Machine Learning Developer And GCI - 2019 Mentor @tensorflow
