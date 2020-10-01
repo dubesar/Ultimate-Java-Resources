@@ -1,0 +1,15 @@
+CONSTRUCTOR is use to initialize the object.
+
+Each time an object is created using "new()" keyword at least one constructor is invoked to assign initial values( Default Constructor).
+
+TYPES OF CONSTRUCTOR:-
+(a) No-argument constructor (no parameter)
+(b) Parameterized Constructor (with parameter)
+
+** We don't write the return value statement but constructor constructor return current class instance.
+
+**How constructors are different from methods in Java?
+
+  (a) Constructor(s) must have the same name as the class within which it defined while it is not necessary for the method in java.
+  (b) Constructor(s) do not return any type while method(s) have the return type or void if does not return any value.
+  (c) Constructor is called only once at the time of Object creation while method(s) can be called any numbers of time.
