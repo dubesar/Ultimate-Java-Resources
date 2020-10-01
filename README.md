@@ -28,3 +28,16 @@ Each of the main topics have been divided into further sub categories.
 | Machine Learning | Linear Regression, Logistic Regression |
 | Networking & Security | Socket, Key Pair, Signature, Socket Programming, Thread Programming |
 | OOP | Abstraction, Encapsulation, Inheritance, Polymorphism |
+
+### Data Structures 
+
+Visit the [Data Structures](https://github.com/dubesar/Java-A-Z/tree/master/Data%20Structures) repository if you would like to see examples for the following Java programs.
+
+- Big Integer
+- LinkedList, Circular LinkedList
+- Max and Min Heaps, Priority Queues
+- ArrayList
+- BST
+- HashMap, HashSet, TreeMap
+- Loops
+- Segment Tree, Tree Traversal
