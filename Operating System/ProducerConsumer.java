@@ -1,5 +1,5 @@
 import java.util.concurrent.Semaphore;
-import java.util. * ;
+import java.util.* ;
 //Qitem contains buffer and full and empty indicators
 class Qitem {
   int item,
