@@ -28,7 +28,7 @@ Each of the main topics have been divided into further sub categories.
 | Machine Learning | Linear Regression, Logistic Regression, KMeans2d |
 | Networking & Security | Socket, Key Pair, Signature, Socket Programming, Thread Programming |
 | Operating System | ProducerConsumer |
-| OOP | Abstraction, Encapsulation, Inheritance, Polymorphism, Manipulators|
+| OOP | Abstraction, Encapsulation, Inheritance, Polymorphism, Manipulators, Constructors and Destructors|
 
 
 #### Project Maintainers
