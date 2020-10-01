@@ -5,9 +5,9 @@
 
     <item
         android:id="@+id/action_add"
-        android:orderInCategory="100"
         android:icon="@android:drawable/ic_menu_add"
-        app:showAsAction="ifRoom"
-        android:title="@string/action_add" />
+        android:orderInCategory="100"
+        android:title="@string/action_add"
+        app:showAsAction="ifRoom" />
 
 </menu>

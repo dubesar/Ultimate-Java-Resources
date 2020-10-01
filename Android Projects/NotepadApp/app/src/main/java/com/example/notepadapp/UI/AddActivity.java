@@ -1,31 +1,26 @@
 package com.example.notepadapp.UI;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.RecyclerView;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.EditText;
-import android.widget.ImageView;
 
-import com.example.notepadapp.Adapters.NotesAdapter;
 import com.example.notepadapp.AppExecutors;
 import com.example.notepadapp.Database.AppDatabase;
 import com.example.notepadapp.Database.Notes;
-import com.example.notepadapp.Models.NotesModel;
 import com.example.notepadapp.R;
 
 public class AddActivity extends AppCompatActivity {
+    //Constant for logging
     private static final String TAG = AddActivity.class.getSimpleName();
 
     //DB object
     private AppDatabase mDB;
 
-    //UI
+    //Views
     EditText mNTitleEditText;
     EditText mNContentTextView;
 
@@ -37,20 +32,19 @@ public class AddActivity extends AppCompatActivity {
         //DB initialization
         mDB = AppDatabase.getInstance(getApplicationContext());
 
+        //Views
         mNTitleEditText = findViewById(R.id.a_note_title);
         mNContentTextView = findViewById(R.id.a_note_content);
-
-
     }
 
-    //to add to the favorites movies
     private void saveNote() {
-        //add movie data to the DB
+        //get the data entered by the user
         String nTitle = mNTitleEditText.getText().toString().trim();
         String nContent = mNContentTextView.getText().toString().trim();
 
         final Notes note = new Notes(nTitle, nContent);
 
+        //add the data to the DB
         AppExecutors.getInstance().diskIO().execute(new Runnable() {
             @Override
             public void run() {

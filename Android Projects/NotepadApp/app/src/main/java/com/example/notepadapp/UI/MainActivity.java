@@ -8,7 +8,6 @@ import com.example.notepadapp.AppExecutors;
 import com.example.notepadapp.Database.AppDatabase;
 import com.example.notepadapp.Database.Notes;
 import com.example.notepadapp.MainViewModel;
-import com.example.notepadapp.Models.NotesModel;
 import com.example.notepadapp.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
@@ -21,20 +20,18 @@ import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.os.Parcelable;
 import android.util.Log;
 import android.view.View;
 
-import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements NotesAdapter.ListItemClickListener {
+    // Constant for logging
     private static final String TAG = MainActivity.class.getSimpleName();
 
+    // Member variables for the adapter and RecyclerView
     private NotesAdapter mNotesAdapter;
-
-    private ArrayList<Notes> mNotes = new ArrayList<>();
+    private RecyclerView mNRecyclerView;
 
     //DB object
     private AppDatabase mDB;
@@ -50,7 +47,8 @@ public class MainActivity extends AppCompatActivity implements NotesAdapter.List
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this , AddActivity.class);
+                //when fab clicked, launch the AddActivity
+                Intent intent = new Intent(MainActivity.this, AddActivity.class);
                 startActivity(intent);
             }
         });
@@ -58,16 +56,19 @@ public class MainActivity extends AppCompatActivity implements NotesAdapter.List
         //DB initialization
         mDB = AppDatabase.getInstance(getApplicationContext());
 
-        RecyclerView mNRecyclerView = findViewById(R.id.note_recycler_view);
+        mNRecyclerView = findViewById(R.id.note_recycler_view);
 
         //setting the notes recycler view
         LinearLayoutManager mLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         mNRecyclerView.setLayoutManager(mLayoutManager);
         mNRecyclerView.setHasFixedSize(true);
-        mNotesAdapter = new NotesAdapter(mNotes,this);
+        mNotesAdapter = new NotesAdapter(this);
         mNRecyclerView.setAdapter(mNotesAdapter);
-        
-        //
+
+
+        // Add a touch helper to the RecyclerView to recognize when a user swipes to delete an item.
+        // An ItemTouchHelper enables touch behavior (like swipe and move) on each ViewHolder,
+        // and uses callbacks to signal when a user is performing these actions.
         new ItemTouchHelper(new ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT) {
             @Override
             public boolean onMove(@NonNull RecyclerView recyclerView, @NonNull RecyclerView.ViewHolder viewHolder, @NonNull RecyclerView.ViewHolder target) {
@@ -96,7 +97,7 @@ public class MainActivity extends AppCompatActivity implements NotesAdapter.List
 
     @Override
     public void onListItemClick(int clickedItemIndex) {
-        //send the clicked movie info to DetailsActivity using Parcelable
+        //send the clicked note data to DetailsActivity using Parcelable
         Intent intent = new Intent(this, EditActivity.class);
         intent.putExtra("notes", mNotesAdapter.getNotes().get(clickedItemIndex));
         startActivity(intent);
@@ -108,7 +109,7 @@ public class MainActivity extends AppCompatActivity implements NotesAdapter.List
         // Observe the LiveData object in the ViewModel
         viewModel.getNotes().observe(this, new Observer<List<Notes>>() {
             @Override
-            public void onChanged( List<Notes> notes) {
+            public void onChanged(List<Notes> notes) {
                 Log.d(TAG, "Updating list of notes from LiveData in ViewModel");
                 mNotesAdapter.setmNotes(notes);
             }

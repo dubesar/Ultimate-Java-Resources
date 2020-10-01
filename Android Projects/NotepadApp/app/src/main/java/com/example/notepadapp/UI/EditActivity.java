@@ -12,10 +12,10 @@ import android.widget.EditText;
 import com.example.notepadapp.AppExecutors;
 import com.example.notepadapp.Database.AppDatabase;
 import com.example.notepadapp.Database.Notes;
-import com.example.notepadapp.Models.NotesModel;
 import com.example.notepadapp.R;
 
 public class EditActivity extends AppCompatActivity {
+    //Constant for logging
     private static final String TAG = EditActivity.class.getSimpleName();
 
     //DB object
@@ -23,9 +23,7 @@ public class EditActivity extends AppCompatActivity {
 
     private Notes notes;
 
-    String nTitle;
-
-    //UI
+    //Views
     EditText mNTitleEditText;
     EditText mNContentTextView;
 
@@ -37,6 +35,7 @@ public class EditActivity extends AppCompatActivity {
         //DB initialization
         mDB = AppDatabase.getInstance(getApplicationContext());
 
+        //Views
         mNTitleEditText = findViewById(R.id.a_note_title);
         mNContentTextView = findViewById(R.id.a_note_content);
 
@@ -50,6 +49,7 @@ public class EditActivity extends AppCompatActivity {
     }
 
     private void updateNote() {
+        //get the data entered by the user
         String nTitle = mNTitleEditText.getText().toString().trim();
         String nContent = mNContentTextView.getText().toString().trim();
 
@@ -59,7 +59,7 @@ public class EditActivity extends AppCompatActivity {
             @Override
             public void run() {
                 //update existing note data in the DB
-                mDB.notesDao().updateNote(note.getnTitle(), note.getnContent(),notes.getnId());
+                mDB.notesDao().updateNote(note.getnTitle(), note.getnContent(), notes.getnId());
                 Log.d(TAG, "updateNote: note updated");
                 finish();
             }
