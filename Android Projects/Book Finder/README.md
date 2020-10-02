@@ -14,7 +14,7 @@ This README also contains the approach that was followed while developing this a
 As this app only show some book list along with it,s name and author, so I decided to use a single page to make the UI more responsive and simple.  
 On tope of the app I used a EditText to take the query input and a ImageButton to trigger the search action. Then I used a recycler view to show the result which each element has a ImageView to show the book image, a TextView to show book name and another TextView to show the author name. The UI finally looks like the following:- 
 
-![UI](app/src/main/res/drawable-v24/screenshot1.jpg)(app/src/main/res/drawable-v24/screenshot2.jpg)
+![UI](app/src/main/res/drawable-v24/screenshot1.jpg)
 
 
 ### Fetching Data from API
@@ -32,5 +32,8 @@ Also, remember to add Internet Permission in AndroidManifest.xml.
 ### Add Book List in Recycler View
 First I have initialized the recyclerView with empty list. I have also set a ovserver to observe the chang on  MutableLiveData in HomeViewModel class. When the repository returns book list data to the HomeViewModel then it called Onchange on  MutableLiveData, then seted the book list data in BookListRecyclerViewAdapter class using setBookList() method and call the notifyDataSetChanged() the change. 
 
-
+### Future Update to improve UX
+1. In future update there will be a suggestion option based on previous search.
+2. By clicking on a book from search result there will be a popup window to see a description about the book.
+3. In search result the book list will order based on it's rating and the list will also show the rating
 
