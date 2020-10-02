@@ -41,7 +41,7 @@ Visit the [Data Structures](https://github.com/dubesar/Java-A-Z/tree/master/Data
 - BST
 - HashMap, HashSet, TreeMap
 - Loops
-- Segment Tree, Tree Traversal
+- Segment Tree, Tree Traversal, Fenwick Tree
 
 ___
 
