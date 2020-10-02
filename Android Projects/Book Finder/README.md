@@ -14,7 +14,7 @@ This README also contains the approach that was followed while developing this a
 As this app only show some book list along with it,s name and author, so I decided to use a single page to make the UI more responsive and simple.  
 On tope of the app I used a EditText to take the query input and a ImageButton to trigger the search action. Then I used a recycler view to show the result which each element has a ImageView to show the book image, a TextView to show book name and another TextView to show the author name. The UI finally looks like the following:- 
 
-![UI](app/src/main/res/drawable-v24/screenshot1.png)(app/src/main/res/drawable-v24/screenshot2.png)
+![UI](app/src/main/res/drawable-v24/screenshot1.jpg)(app/src/main/res/drawable-v24/screenshot2.jpg)
 
 
 ### Fetching Data from API
