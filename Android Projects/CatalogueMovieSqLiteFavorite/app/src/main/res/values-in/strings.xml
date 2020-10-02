@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CatalogueMovieFinal</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="detail">Detil</string>
+    <string name="share">Bagikan</string>
+    <string name="popularitas">Popularitas</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="now_playing">Sedang Tayag</string>
+    <string name="upcoming">Segera Tayang</string>
+    <string name="favorite">Favorit</string>
+    <string name="Shares">Bagikan</string>
+    <string name="error">Gagal memuat data</string>
+    <string name="search">Cari film</string>
+    <string name="internet">Pastikan anda terhubung internet</string>
+    <string name="home">Home</string>
+    <string name="bahasa">Bahasa</string>
+    <string name="daily_reminder">Pengingat Harian</string>
+    <string name="release_reminder">Pengingat Rilis</string>
+    <string name="addto">Ditambahkan ke FAVORIT</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="noData">KOSONG</string>
+    <string name="reminderSave">Pengingat Rilis Disimpan</string>
+    <string name="reminderCancel">Pengingat Rilis Dibatalkan</string>
+    <string name="dailyReminderSaved">Pengingat Harian Disimpan</string>
+    <string name="dailyReminderCanceled">Pengingat Harian Dibatalkan</string>
+    <string name="release_movie_message">%s Rilis hari ini, segera cek!</string>
+    <string name="daily_reminder_message">kami punya film keren untuk kamu </string>
+    <string name="Empty">Tidak ada Film Favorit</string>
+
+</resources>

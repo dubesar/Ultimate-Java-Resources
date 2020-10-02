@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fajarnandagusti.cataloguemoviefinal">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <permission android:name="com.fajarnandagusti.cataloguemoviefinal.READ_DATABASE"
+        android:protectionLevel="normal"/>
+    <permission android:name="com.fajarnandagusti.cataloguemoviefinal.WRITE_DATABASE"
+        android:protectionLevel="normal"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <provider
+            android:authorities="com.fajarnandagusti.cataloguemoviefinal"
+            android:name=".provider.MovieProvider"
+            android:exported="true"
+            android:readPermission="com.fajarnandagusti.cataloguemoviefinal.READ_DATABASE"
+            android:writePermission="com.fajarnandagusti.cataloguemoviefinal.WRITE_DATABASE"/>
+
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.DetailMovieActivity" />
+        <activity android:name=".activity.NowPlayingActivity"
+            android:label="@string/now_playing"/>
+        <activity android:name=".activity.UpcomingActivity"
+            android:label="@string/upcoming"/>
+        <activity android:name=".activity.SettingActivity"/>
+        <activity android:name=".activity.FavoriteActivity"
+            android:label="@string/favorite"/>
+
+        <receiver android:name=".widget.ImageBannerWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/image_banner_widget_info" />
+        </receiver>
+
+        <service android:name=".widget.StackWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS"/>
+
+
+        <receiver android:name=".scheduler.ReleaseReminderReceiver"
+            android:enabled="true"
+            android:exported="true"/>
+        <receiver android:name=".scheduler.DailyReminderReceiver"
+            android:enabled="true"
+            android:exported="true"/>
+    </application>
+
+</manifest>
