@@ -45,7 +45,7 @@ public class EditActivity extends AppCompatActivity {
 
         assert notes != null;
         mNTitleEditText.setText(notes.getnTitle());
-        mNContentTextView.setText(notes.getnTitle());
+        mNContentTextView.setText(notes.getnContent());
     }
 
     private void updateNote() {
