@@ -6,4 +6,3 @@
 2. Time Formatting
 3. Event control
 
-## Screenshots
