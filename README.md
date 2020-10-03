@@ -24,7 +24,7 @@ Each of the main topics have been divided into further sub categories.
 | ------ | ------ |
 | Data Structures | LinkedList, Heaps, Arrays, ArrayLists, HashMaps, Trees, Graphs, Stacks, Queues, Deque|
 | Algorithms | Sorting, Searching, BFS, Dijkstra, Dynamic Programming, NQueens | 
-| Android Development | Weather Report, GithubProfile App, DiceRoller, Password Generator, MemeShare App, CountDown Timer| 
+| Android Development | Weather Report, GithubProfile App, DiceRoller, Password Generator, MemeShare App, CountDown Timer, Book Finder, Notepad App| 
 | Machine Learning | Linear Regression, Logistic Regression, KMeans2d |
 | Networking & Security | Socket, Key Pair, Signature, Socket Programming, Thread Programming |
 | Operating System | ProducerConsumer |
@@ -66,6 +66,9 @@ Visit the [Android Development](https://github.com/dubesar/Java-A-Z/tree/master/
 - [Meme Share App](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects/MemeShareApp)
 - [Password Generator App](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects/PasswordGeneratorApp)
 - [Weather Report](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects/WeatherReport)
+- [Book Finder](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects/Book%20Finder)
+- [Dice Roller](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects/DiceRoller)
+- [Notepad App](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects/NotepadApp)
 
 ___
 
