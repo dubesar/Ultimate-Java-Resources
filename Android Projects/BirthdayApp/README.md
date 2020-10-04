@@ -3,7 +3,7 @@ A timer app that will start a countdown based on an input of time in minutes.
 
 ## Screenshots
 
-![one](screens/screen_0.jpg) ![two](screens/screen_1.jpg)
+![one](screens/image.png)
 ## Concepts Learned
 - Intent for navigation between activities
 - Packing data to Intent
