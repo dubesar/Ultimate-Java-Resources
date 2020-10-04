@@ -1,1 +1,2 @@
--[Jianbo Jia] (https://github.com/coryjia)
+- [Jianbo Jia](https://github.com/coryjia)
+- [Rahul Pillai](https://github.com/theGeekyLad)
