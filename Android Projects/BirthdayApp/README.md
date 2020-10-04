@@ -1,5 +1,5 @@
 # Happy Birthday App
-A timer app that will start a countdown based on an input of time in minutes.
+An application where you can write the name of the person you want to congratulate.
 
 ## Screenshots
 
