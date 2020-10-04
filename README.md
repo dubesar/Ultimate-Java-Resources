@@ -2,10 +2,10 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com) 
 
-### Introduction 
+### Introduction for beginner 
 This repository aims at helping new Java developers. It contains examples of simple programs and algorithms. 
 
-### Main Topics
+### Main Topics for contribute 
 
 The following main topics have been contributed in this repository. 
 
