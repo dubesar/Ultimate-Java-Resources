@@ -43,7 +43,10 @@ public class LiveDrawingView extends SurfaceView implements Runnable {
     // These will be used to make simple buttons
     private RectF mResetButton;
     private RectF mTogglePauseButton;
+    private RectF mSetColorButton;
+    private RectF mSetSizeButton;
 
+    private int tempSize =0;
     private ArrayList<ParticleSystem> mParticleSystems = new ArrayList<>();
 
     private int mNextSystem = 0;
@@ -68,6 +71,10 @@ public class LiveDrawingView extends SurfaceView implements Runnable {
         // Initialize the two buttons
         mResetButton = new RectF(0, 0, 100, 100);
         mTogglePauseButton = new RectF(0, 150, 100, 250);
+        mSetColorButton = new RectF(0,300,100,400);
+        mSetSizeButton = new RectF(0 , 450 , 100 , 550);
+
+
 
         for (int i = 0; i < MAX_SYSTEMS; i++) {
             mParticleSystems.add(new ParticleSystem());
@@ -87,6 +94,7 @@ public class LiveDrawingView extends SurfaceView implements Runnable {
             // Choose the font size
             mPaint.setTextSize(mFontSize);
 
+
             mPaint.setColor(Color.argb(255,255,255,255));
             mPaint.setTextSize(mFontSize);
             for (int i=0 ; i <mNextSystem ; i++) {
@@ -96,7 +104,17 @@ public class LiveDrawingView extends SurfaceView implements Runnable {
             // Draw the buttons
             mCanvas.drawRect(mResetButton, mPaint);
             mCanvas.drawRect(mTogglePauseButton, mPaint);
-
+            mCanvas.drawRect(mSetColorButton,mPaint);
+            mCanvas.drawRect(mSetSizeButton,mPaint);
+            mPaint.setColor(Color.argb(255,120,125,50));
+            mPaint.setTextSize(mFontSize/1.1f);
+            mCanvas.drawText("Reset" , 10 ,60 ,mPaint);
+            mCanvas.drawText("Pause" , 10 ,210 ,mPaint);
+            mPaint.setTextSize(mFontSize/1.3f);
+            mCanvas.drawText("Color" , 10 ,330 ,mPaint);
+            mCanvas.drawText("White" , 10 ,330+mFontSize ,mPaint);
+            mCanvas.drawText("Size" , 10 ,490 ,mPaint);
+            mCanvas.drawText("Change" , 8 ,490 + mFontSize ,mPaint);
             // Draw the HUD
             if(DEBUGGING){
                 printDebuggingText();
@@ -112,7 +130,7 @@ public class LiveDrawingView extends SurfaceView implements Runnable {
 
     private void printDebuggingText() {
         int debugSize = mFontSize / 2;
-        int debugStart = 150;
+        int debugStart = 600;
         mPaint.setTextSize(debugSize);
         mCanvas.drawText("FPS: " + mFPS ,
                 10, debugStart + debugSize, mPaint);
@@ -212,6 +230,21 @@ public class LiveDrawingView extends SurfaceView implements Runnable {
             if (mTogglePauseButton.contains(event.getX(), event.getY())) {
                 //pause
                 mPaused = !mPaused;
+            }
+
+            // User pressed the screen see if it was in a button (pause or reset)
+            if (mSetSizeButton.contains(event.getX(), event.getY())) {
+                tempSize++;
+                for(int i=0 ; i<MAX_SYSTEMS;i++)
+                    mParticleSystems.get(i).mSize = tempSize;
+
+                if(tempSize == 3)
+                    tempSize=0;
+            }
+            // User pressed the screen see if it was in a button (pause or reset)
+            if (mSetColorButton.contains(event.getX(), event.getY())) {
+                for(int i=0 ; i<MAX_SYSTEMS;i++)
+                    mParticleSystems.get(i).mColor = !mParticleSystems.get(i).mColor;
             }
         }
         return true;

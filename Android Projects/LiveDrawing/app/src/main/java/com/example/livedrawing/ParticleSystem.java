@@ -12,6 +12,8 @@ import static java.lang.Math.cos;
 import static java.lang.Math.sin;
 
 public class ParticleSystem {
+    public boolean mColor = false;
+    public int mSize = 1;
     private float mDuration;
     private ArrayList<Particle> mParticles;
     private Random random = new Random(); // this is used a lot... so instanciated here
@@ -66,25 +68,31 @@ public class ParticleSystem {
 
     void  draw(Canvas canvas , Paint paint) {
         for(Particle p : mParticles) {
-            // Option 1 - Coloured particles
-            //paint.setARGB(255, random.nextInt(256),random.nextInt(256),random.nextInt(256));
-            // Option 2 - White particles
-            paint.setColor(Color.argb(255,255,255,255));
-
-
+            if(mColor) {
+                // Option 1 - Coloured particles
+                paint.setARGB(255, random.nextInt(256),random.nextInt(256),random.nextInt(256));
+            } else {
+                // Option 2 - White particles
+                paint.setColor(Color.argb(255,255,255,255));
+            }
             // How big is each particle?
             float sizeX = 0;
             float sizeY = 0;
 
-            // Option 1 - Big particles
-            //sizeX = 25;
-            //sizeY = 25;
-            // Option 2 - Medium particles
-            sizeX = 10;
-            sizeY = 10;
-            // Option 3 - Tiny particles
-            //sizeX = 1;
-            //sizeY = 1;
+            if(mSize == 2 ){
+                // Option 1 - Big particles
+                sizeX = 25;
+                sizeY = 25;
+            } else if(mSize == 1) {
+                // Option 2 - Medium particles
+                sizeX = 10;
+                sizeY = 10;
+            } else if(mSize == 0) {
+                // Option 3 - Tiny particles
+                sizeX = 1;
+                sizeY = 1;
+            }
+
 
             // Draw the particle
             // Option 1 - Square particles
