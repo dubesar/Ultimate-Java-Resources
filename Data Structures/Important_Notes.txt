@@ -1,0 +1,15 @@
+
+** Difference between HashMap and LinkedHashMap :
+
+LinkedHashMap and HashMap are map implementations in Java and their working is almost same.
+The main difference between them is that LinkedHashMap maintains the insertion order of the elements (the sequence in which keys are inserted) whereas HashMap does not maintain any order.
+
+Eg : If I am adding a,b,c,d in this order, in my Hashmap and LinkedHashMap,
+
+Then output could be : HashMap (a,c,d,b)
+                       LinkedHashMap (a,b,c,d)
+
+LinkedHashMap<String, String> abc = new LinkedHashMap<String, String>();
+HashMap<String, String> abc = new HashMap<>();
+
+

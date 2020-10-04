@@ -1,0 +1,27 @@
+You are given two binary trees root, and target. Return whether target is a subtree of root — that is, whether there's a node in root that is 
+identically same in values and structure as root including all of its descendants.
+
+For example, given root of
+
+   1
+  / \
+ 2   3
+    / \
+   4   5
+  /     \
+ 6       7 
+And target of
+
+    3
+   / \
+  4   5
+ /     \
+6       7 
+Return true.
+
+With target of
+
+3
+ \
+  5
+Return false.

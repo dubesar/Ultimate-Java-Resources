@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Notepad App</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="action_edit">Edit Note</string>
+    <string name="action_delete">Delete Note</string>
+    <string name="action_add">Add</string>
+    <string name="note_title">note title</string>
+    <string name="note_body">note body</string>
+    <string name="content_des_add_note">image for adding note</string>
+</resources>

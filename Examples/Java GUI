@@ -1,0 +1,205 @@
+/*This is a basic GUI based Java application with some action buttons and respective display boxes.
+Action buttons: Count vowels, Count consonants, Count punctuations, Capitalize
+Other component: File browser to select any text file from the local machine
+Input: Select any text file from the local machine
+Output: as per the action event provided through the action button through display.
+Button ‘Capitalize’ will change the content of the selected file in uppercase and save it in a
+file named ‘UX.txt’ where X will be replaced by your selected file name.*/
+
+
+import java.io.*;
+import java.awt.event.*;
+import javax.swing.*;
+import javax.swing.filechooser.*;
+import java.io.FileWriter;
+
+public class Question1 extends JFrame implements ActionListener
+{
+  JMenuBar m;
+  JMenu file;
+  JFrame f;
+  JMenuItem open, save;
+  JButton a, b, c, d, s;
+  JTextField t1, t2, t3, t4, t5;
+  int cv, ca, cp;
+  String s1, s2, fn;
+  Question1()
+  {
+    open = new JMenuItem("Open File");
+    open.addActionListener(this);
+    save = new JMenuItem("Save File");
+    save.addActionListener(this);
+    file = new JMenu("File");
+    file.add(open);
+    file.add(save);
+    m = new JMenuBar();
+    m.setBounds(50,25,100,30);
+    m.add(file);
+
+    add(m);
+
+    t1 = new JTextField();
+    t1.setBounds(50, 50, 150, 40);
+    add(t1);
+
+    a = new JButton("Consonants");
+    a.setBounds(50, 100, 100, 40);
+    a.addActionListener(this);
+    add(a);
+
+    t2 = new JTextField();
+    t2.setBounds(50, 150, 150, 40);
+    add(t2);
+
+    b = new JButton("Vowel");
+    b.setBounds(50, 200, 100, 40);
+    b.addActionListener(this);
+    add(b);
+
+    t3 = new JTextField();
+    t3.setBounds(50, 250, 150, 40);
+    add(t3);
+
+    c = new JButton("Punctuations");
+    c.setBounds(50, 300, 100, 40);
+    c.addActionListener(this);
+    add(c);
+
+    t4 = new JTextField();
+    t4.setBounds(50, 350, 150, 40);
+    add(t4);
+
+    d = new JButton("Capitalize");
+    d.setBounds(50, 400, 100, 40);
+    d.addActionListener(this);
+    add(d);
+
+    t5 = new JTextField();
+    t5.setBounds(50, 450, 150, 40);
+    add(t5);
+
+    s = new JButton("Clear");
+    s.setBounds(50, 500, 100, 40);
+    s.addActionListener(this);
+    add(s);
+  }
+  public void actionPerformed(ActionEvent e)
+  {
+     if(e.getSource()==open)
+     {
+        JFileChooser f = new JFileChooser();
+        int i=f.showOpenDialog(this);
+        if(i==JFileChooser.APPROVE_OPTION)
+        {
+          File fc = f.getSelectedFile();
+          String filepath = fc.getPath();
+          fn = filepath;
+          try
+          {
+            BufferedReader br = new BufferedReader(new FileReader(filepath));
+            s1 =" ";
+            s2 =" ";
+            while((s1 = br.readLine())!=null)
+            {
+              s2+=s1+" ";
+            }
+            t1.setText(s2);
+            s2=s2.toLowerCase();
+            br.close();
+          }
+          catch(Exception o)
+          {
+            o.printStackTrace();
+          }
+        }
+     }
+     else if(e.getSource()==a)
+     {
+       ca=0;
+        for(int i=0;i<s2.length();i++)
+        {
+          if(s2.charAt(i)>='a' && s2.charAt(i)<='z')
+          {
+          if(s2.charAt(i)=='a'|| s2.charAt(i)=='e'|| s2.charAt(i)=='i'|| s2.charAt(i)=='o'|| s2.charAt(i)=='u')
+          {
+            ca+=0;
+          }
+          else
+          {
+            ca+=1;
+          }
+         }
+        }
+        t2.setText(Integer.toString(ca));
+     }
+     else if(e.getSource()==b)
+     {
+       cv=0;
+       s2=s2.toLowerCase();
+        for(int i=0;i<s2.length();i++)
+        {
+          if(s2.charAt(i)=='a'|| s2.charAt(i)=='e'|| s2.charAt(i)=='i'|| s2.charAt(i)=='o'|| s2.charAt(i)=='u')
+          {
+            cv+=1;
+          }
+        }
+        t3.setText(Integer.toString(cv));
+     }
+     else if(e.getSource()==c)
+     {
+       cp=0;
+       for(int i=0;i<s2.length();i++)
+       {
+         if(s2.charAt(i)=='.'||s2.charAt(i)=='?'||s2.charAt(i)==','||s2.charAt(i)=='!'||s2.charAt(i)== '"'||s2.charAt(i)==39||s2.charAt(i)==';'||s2.charAt(i)==':'||s2.charAt(i)==40||s2.charAt(i)==41||s2.charAt(i)==91||s2.charAt(i)==93||s2.charAt(i)=='_')
+         {
+           cp+=1;
+         }
+       }
+       t4.setText(Integer.toString(cp));
+     }
+     else if(e.getSource()==d)
+     {
+       s2 = s2.toUpperCase();
+       t5.setText(s2);
+     }
+     else if(e.getSource() == save)
+     {
+       try{
+         int y=0;
+         for(int i=0;i<fn.length();i++)
+         {
+           if(fn.charAt(i)==47)
+           {
+             y=i;
+           }
+         }
+         fn = fn.substring(0, y+1) + "u" + fn.substring(y+1, fn.length());
+        File file = new File(fn);
+        FileWriter f =new FileWriter(file);
+        BufferedWriter o = new BufferedWriter(f);
+        o.write(s2);
+        o.close();
+       }
+       catch(Exception g)
+       {
+         g.printStackTrace();
+       }
+     }
+     else if(e.getSource()==s)
+     {
+        t1.setText(" ");
+        t2.setText(" ");
+        t3.setText(" ");
+        t4.setText(" ");
+        t5.setText(" ");
+     }
+}
+  public static void main(String[] args)
+  {
+    Question1 o = new Question1();
+    o.setSize(500,500);
+    o.setLayout(null);
+    o.setVisible(true);
+    o.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+  }
+}
