@@ -1,4 +1,4 @@
-# Happy Birthday App
+# Birthday Wish App
 An application where you can write the name of the person you want to congratulate.
 
 ## Screenshots
