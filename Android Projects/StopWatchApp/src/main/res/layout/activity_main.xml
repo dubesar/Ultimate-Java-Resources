@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="20dp"
+    android:background="#1A0331">
+
+    <TextView
+        android:id="@+id/stopwatch_view"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:background="#F22A7F"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:text="@string/display_stopwatch"
+        android:textSize="24dp" />
+
+    <ScrollView
+        android:id="@+id/lapView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout"
+        android:layout_below="@+id/stopwatch_view"
+        android:layout_marginBottom="12dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <Button
+            android:id="@+id/btn_start"
+            style="?android:borderlessButtonStyle"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:background="#F22A7F"
+            android:onClick="onSWatchStart"
+            android:layout_marginRight="12dp"
+            android:text="@string/btn_start"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_lap"
+            style="?android:borderlessButtonStyle"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_weight="1"
+            android:background="#F22A7F"
+
+
+            android:enabled="false"
+            android:onClick="onSWatchLap"
+            android:text="@string/btn_lap"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>
