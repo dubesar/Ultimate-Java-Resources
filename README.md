@@ -1,3 +1,4 @@
+
 ## Java Programming
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com) 
@@ -24,7 +25,7 @@ Each of the main topics have been divided into further sub categories.
 | ------ | ------ |
 | Data Structures | LinkedList, Heaps, Arrays, ArrayLists, HashMaps, Trees, Graphs, Stacks, Queues, Deque|
 | Algorithms | Sorting, Searching, BFS, Dijkstra, Dynamic Programming, NQueens | 
-| Android Development | Weather Report, GithubProfile App, DiceRoller, Password Generator, MemeShare App, CountDown Timer, Book Finder, Notepad App| 
+| Android Development | Weather Report, GithubProfile App, DiceRoller, Password Generator, MemeShare App, CountDown Timer, Book Finder, Notepad App, Birthday Wish App| 
 | Machine Learning | Linear Regression, Logistic Regression, KMeans2d |
 | Networking & Security | Socket, Key Pair, Signature, Socket Programming, Thread Programming |
 | Operating System | ProducerConsumer |
@@ -69,7 +70,8 @@ Visit the [Android Development](https://github.com/dubesar/Java-A-Z/tree/master/
 - [Book Finder](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects/Book%20Finder)
 - [Dice Roller](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects/DiceRoller)
 - [Notepad App](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects/NotepadApp)
-
+- [Birthday Wish App](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects/BirthdayWishApp)
+- [BMI Calculator](https://github.com/SudiptaAChy/Java-A-Z/tree/master/Android%20Projects/BMI%20Calculator)
 ___
 
 ### Machine Learning
