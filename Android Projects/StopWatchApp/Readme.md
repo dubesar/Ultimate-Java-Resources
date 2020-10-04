@@ -9,7 +9,7 @@
 
 ## Screenshots
 
-<img src="https://github.com/shikhar8434/Java-A-Z/blob/master/Android%20Projects/StopWatch%20app/ss1.jpeg" width="280"/>     <img src="https://github.com/shikhar8434/Java-A-Z/blob/master/Android%20Projects/StopWatch%20app/ss2.jpeg" width="280"/>
+<img src="https://github.com/shikhar8434/Java-A-Z/blob/master/Android%20Projects/StopWatch%20app/ss1.jpeg" width="280"/>     <img src="https://github.com/shikhar8434/Java-A-Z/blob/master/Android%20Projects/StopWatchApp/ss2.jpeg" width="280"/>
 
 ## Future Improvements
 
