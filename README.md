@@ -1,3 +1,4 @@
+
 ## Java Programming
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com) 
@@ -70,6 +71,9 @@ Visit the [Android Development](https://github.com/dubesar/Java-A-Z/tree/master/
 - [Dice Roller](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects/DiceRoller)
 - [Notepad App](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects/NotepadApp)
 - [Birthday Wish App](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects/BirthdayWishApp)
+- [BMI Calculator](https://github.com/SudiptaAChy/Java-A-Z/tree/master/Android%20Projects/BMI%20Calculator)
+
+
 
 ___
 
