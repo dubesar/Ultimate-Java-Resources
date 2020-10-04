@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="welcome_text">Welcome to the game! The rules are pretty straightforward.
+        This app here, is a simple prototype to demo how things work under the hood.
+        Yes, its open source so feel free to go check out the source code which is well
+        documented for all starters. Enjoy!
+    </string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+</resources>
