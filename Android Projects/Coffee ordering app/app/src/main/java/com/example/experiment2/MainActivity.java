@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
                 String name = "Name: " + e1.getText().toString();
                 String address = "Address: " + e2.getText().toString();
                 String quant = "Quantity: " + q.getText().toString();
-                String price = "Price: Rs." + quantity*5;
+                String price = "Total Price: Rs." + quantity*10 + "\n(Rs.10 per coffee)";
 
                 String toppings = "";
                 if(c1.isChecked()){
