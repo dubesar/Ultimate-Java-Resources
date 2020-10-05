@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/colorPrimaryDark"
+  tools:context=".MainActivity">
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+      android:id="@+id/layout_heading"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="16dp"
+      android:orientation="vertical">
+
+      <TextView
+        android:id="@+id/tv_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/count"
+        android:textColor="@color/colorPrimary"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+      <TextView
+        android:id="@+id/tv_your_words"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_words"
+        android:textColor="@color/colorPrimary"
+        android:textSize="26sp" />
+
+    </LinearLayout>
+
+    <TextView
+      android:id="@+id/tv_word_count"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/layout_heading"
+      android:gravity="center"
+      android:maxLines="1"
+      android:text="@string/_0"
+      android:textColor="@color/colorAccent"
+      android:textSize="150sp" />
+
+    <LinearLayout
+      android:id="@+id/layout_minimum"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/tv_word_count"
+      android:layout_margin="16dp"
+      android:orientation="vertical">
+
+      <EditText
+        android:id="@+id/edit_words"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edit_text"
+        android:hint="@string/write_the_words_here"
+        android:paddingStart="15dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="15dp"
+        android:paddingBottom="20dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <TextView
+      android:id="@+id/btn_count"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/layout_minimum"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="30dp"
+      android:layout_marginEnd="16dp"
+      android:background="@drawable/bg_generate_button"
+      android:gravity="center"
+      android:padding="15dp"
+      android:text="@string/count"
+      android:textAllCaps="true"
+      android:layout_marginBottom="10dp"
+      android:textColor="@android:color/white"
+      android:textSize="18sp"
+      android:textStyle="bold" />
+
+    <TextView
+      android:id="@+id/btn_clear"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/btn_count"
+      android:layout_marginStart="16dp"
+      android:layout_marginEnd="16dp"
+      android:background="@drawable/bg_generate_button"
+      android:gravity="center"
+      android:padding="15dp"
+      android:text="@string/clear"
+      android:textAllCaps="true"
+      android:layout_marginBottom="40dp"
+      android:textColor="@android:color/white"
+      android:textSize="18sp"
+      android:textStyle="bold" />
+
+  </RelativeLayout>
+
+</ScrollView>
