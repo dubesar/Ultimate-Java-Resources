@@ -30,7 +30,7 @@ Each of the main topics have been divided into further sub categories.
 | Operating System | ProducerConsumer |
 | OOP | Abstraction, Encapsulation, Inheritance, Polymorphism, Manipulators|
 
-### Data Structures 
+### Data Structures are given below
 
 Visit the [Data Structures](https://github.com/dubesar/Java-A-Z/tree/master/Data%20Structures) repository if you would like to see examples for the following Java programs.
 
