@@ -3,7 +3,7 @@ An application where you can scan the QR codes and Barcodes to find the embeded 
 
 ## Screenshots
 
-![one](assets/image.jpg) | ![two](assets/image2.jpg)
+<img src="https://github.com/gargk747/Java-A-Z/blob/master/Android%20Projects/QRBARCodeScanner/assets/image.jpg" width="300"> <img src="https://github.com/gargk747/Java-A-Z/blob/master/Android%20Projects/QRBARCodeScanner/assets/image2.jpg" width="300">
 
 ![third](assets/image3.gif)
 
