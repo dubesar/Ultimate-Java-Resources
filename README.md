@@ -55,6 +55,7 @@ Visit the [Algorithms](https://github.com/dubesar/Java-A-Z/tree/master/Algorithm
 - Dijkstra
 - Binary Search, Interpolation Search, Ternary Search
 - Segment Tree, Tree Traversal
+- Prefix Sum
 
 ___
 
