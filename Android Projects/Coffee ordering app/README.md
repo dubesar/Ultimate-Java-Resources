@@ -11,7 +11,7 @@ Two EventListeners applied on 'Place Order' button
 
 - onLongClickListener: If user long clicks the button, they can see their coffee order along with the price.
 
-<img src="https://user-images.githubusercontent.com/43422407/95093082-fc2ede80-0745-11eb-8cf5-05aa3be58144.jpeg" height="400" width="200" />
+<img src="https://user-images.githubusercontent.com/43422407/95095849-32219200-0749-11eb-9ab2-b41f185c7512.jpeg" height="400" width="200" />
 
 ## To run the app
 Download source code and run app on your computer.
