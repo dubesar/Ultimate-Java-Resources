@@ -26,10 +26,14 @@ public class SecondActivity extends AppCompatActivity {
         String name = i.getStringExtra("name_key");
         String address = i.getStringExtra("reg_key");
         String quantity = i.getStringExtra("dept_key");
+        String topping = i.getStringExtra("toppings_key");
+        String price = i.getStringExtra("price_key");
 
         //Setting the Values to Intent
         t1.setText(name);
         t2.setText(address);
         t3.setText(quantity);
+        t4.setText(topping);
+        t5.setText(price);
     }
 }

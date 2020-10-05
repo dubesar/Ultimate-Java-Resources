@@ -97,8 +97,21 @@
 
     <LinearLayout
         android:paddingTop="20dp"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
+
+        <CheckBox
+            android:id="@+id/chocolate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chocolate" />
+
+        <CheckBox
+            android:id="@+id/whipped_cream"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Whipped Cream" />
 
         <Button
             android:id="@+id/submit"

@@ -56,6 +56,9 @@ public class MainActivity extends AppCompatActivity {
         final EditText e1 = (EditText)findViewById(R.id.name);
         final EditText e2 = (EditText)findViewById(R.id.address);
 
+        final CheckBox c1 = (CheckBox)findViewById(R.id.chocolate);
+        final CheckBox c2 = (CheckBox)findViewById(R.id.whipped_cream);
+
         Button b3 = (Button)findViewById(R.id.submit);
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -70,7 +73,15 @@ public class MainActivity extends AppCompatActivity {
                 String name = "Name: " + e1.getText().toString();
                 String address = "Address: " + e2.getText().toString();
                 String quant = "Quantity: " + q.getText().toString();
+                String price = "Price: Rs." + quantity*5;
 
+                String toppings = "";
+                if(c1.isChecked()){
+                    toppings += "Has chocolate \n";
+                }
+                if(c2.isChecked()){
+                    toppings += "Has whipped cream \n";
+                }
 
                 Intent i = new Intent(MainActivity.this,SecondActivity.class);
 
@@ -78,6 +89,8 @@ public class MainActivity extends AppCompatActivity {
                 i.putExtra("name_key", name);
                 i.putExtra("reg_key",address);
                 i.putExtra("dept_key", quant);
+                i.putExtra("toppings_key",toppings);
+                i.putExtra("price_key",price);
 
                 startActivity(i);
                 return false;
