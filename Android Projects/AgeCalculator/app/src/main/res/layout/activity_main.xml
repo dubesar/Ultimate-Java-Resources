@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/colorPrimaryDark"
+  tools:context=".MainActivity">
+
+  <LinearLayout
+    android:id="@+id/layout_heading"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <TextView
+      android:id="@+id/tv_calculate"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/calculate"
+      android:textColor="@color/colorPrimary"
+      android:textSize="28sp"
+      android:textStyle="bold" />
+
+    <TextView
+      android:id="@+id/tv_your_age"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/your_today_s_age"
+      android:textColor="@color/colorPrimary"
+      android:textSize="26sp" />
+
+  </LinearLayout>
+
+  <ImageView
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:layout_alignParentEnd="true"
+    android:layout_margin="16dp"
+    android:src="@drawable/ic_outline_account_circle_24"
+    app:tint="@color/colorPrimary" />
+
+  <LinearLayout
+    android:id="@+id/layout_dob"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/layout_heading"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <TextView
+      android:id="@+id/tv_heading_dob"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="4dp"
+      android:text="@string/enter_your_date_of_birth"
+      android:textColor="@color/colorPrimary"
+      android:textSize="18sp" />
+
+    <TextView
+      android:id="@+id/tv_dob"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:background="@drawable/bg_edit_text"
+      android:paddingStart="15dp"
+      android:paddingTop="20dp"
+      android:paddingEnd="15dp"
+      android:paddingBottom="20dp"
+      android:text="@string/dd_mm_yyyy"
+      android:textColor="@color/colorPrimary"
+      android:textSize="18sp"
+      app:drawableEndCompat="@drawable/ic_outline_calendar_today_24"
+      app:drawableTint="@color/colorPrimary" />
+
+    <TextView
+      android:id="@+id/tv_age"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:background="@drawable/bg_age_text"
+      android:paddingStart="15dp"
+      android:paddingTop="20dp"
+      android:paddingEnd="15dp"
+      android:paddingBottom="20dp"
+      android:gravity="center"
+      android:text="@string/dd_mm_yyyy"
+      android:visibility="gone"
+      android:textColor="@color/colorPrimary"
+      android:textSize="18sp" />
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:id="@+id/layout_today"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/layout_dob"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:orientation="vertical">
+
+    <TextView
+      android:id="@+id/tv_heading_date"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="4dp"
+      android:text="@string/age_at_the_date_of"
+      android:textColor="@color/colorPrimary"
+      android:textSize="18sp" />
+
+    <TextView
+      android:id="@+id/tv_date"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:background="@drawable/bg_edit_text"
+      android:paddingStart="15dp"
+      android:paddingTop="20dp"
+      android:paddingEnd="15dp"
+      android:paddingBottom="20dp"
+      android:text="@string/dd_mm_yyyy"
+      android:textColor="@color/colorPrimary"
+      android:textSize="18sp"
+      app:drawableEndCompat="@drawable/ic_outline_calendar_today_24"
+      app:drawableTint="@color/colorPrimary" />
+
+    <TextView
+      android:id="@+id/tv_next_birthday"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:background="@drawable/bg_age_text"
+      android:paddingStart="15dp"
+      android:paddingTop="20dp"
+      android:paddingEnd="15dp"
+      android:paddingBottom="20dp"
+      android:gravity="center"
+      android:text="@string/dd_mm_yyyy"
+      android:visibility="gone"
+      android:textColor="@color/colorPrimary"
+      android:textSize="18sp" />
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:id="@+id/layout_buttons"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/layout_today"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginEnd="16dp"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+    <TextView
+      android:id="@+id/btn_clear"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="16dp"
+      android:layout_weight="1"
+      android:background="@drawable/bg_clear_button"
+      android:gravity="center"
+      android:padding="15dp"
+      android:text="Clear"
+      android:textColor="@color/colorPrimary"
+      android:textSize="18sp"
+      android:textStyle="bold" />
+
+    <TextView
+      android:id="@+id/btn_calculate"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:background="@drawable/bg_calculate_button"
+      android:gravity="center"
+      android:padding="15dp"
+      android:text="Calculate"
+      android:textColor="@android:color/white"
+      android:textSize="18sp"
+      android:textStyle="bold" />
+
+  </LinearLayout>
+
+  <ImageView
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:layout_below="@id/layout_buttons"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="30dp"
+    android:src="@drawable/age_pic" />
+
+</RelativeLayout>
