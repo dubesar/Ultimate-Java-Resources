@@ -7,6 +7,9 @@ The app takes input as an binary text and converting it to decimal values.
 ## Concepts Used
 - <a href="https://github.com/material-components/material-components-android/blob/master/docs/getting-started.md">Material design</a>
 
+## Resources
+- <a href="https://www.rapidtables.com/convert/number/binary-to-decimal.html">How to convert binary to Decimal</a>
+
 # Improvement
 - UI need an improvement
 - Can add feature of binary to octa and hex as well.
