@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BinnaryToDecimal</string>
+    <string name="hint_enter_binary">Enter binary number:</string>
+    <string name="convert">Convert</string>
+</resources>
