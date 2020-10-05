@@ -1,8 +1,10 @@
 # Currency Converter App
-this app takes currency you  have and the currency you want to convert and the amount of currency you want to convert
+This app takes currency you  have and the currency you want to convert and the amount of currency you want to convert
 
 # Screenshot
-![](images/screenshot.jpg)
+<p align="center">
+<img src="images/screenshot.jpg" width="200" height="400"/>
+</p>
 
 ## concept used
 - TextView
