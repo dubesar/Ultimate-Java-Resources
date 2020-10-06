@@ -107,7 +107,6 @@ Visit the [OOP](https://github.com/dubesar/Java-A-Z/tree/master/OOPs) repository
 - [Polymorphism](https://github.com/dubesar/Java-A-Z/blob/master/OOPs/encapsulation.md)
 
 
-#### Project Maintainers
-## Sarvesh Dubey
-## Kinal Mali
+## Project founder Sarvesh Dubey.
+## Project maintainer Kunal Mali.
 This project is founded by [ Sarvesh Dubey ](https://github.com/dubesar) and actively maintained by [ Kunal Mali ](https://github.com/kunal299). A Machine Learning Developer And GCI - 2019 Mentor @tensorflow
