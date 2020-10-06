@@ -27,7 +27,7 @@ Each of the main topics have been divided into further sub categories.
 | ------ | ------ |
 | Data Structures | LinkedList, Heaps, Arrays, ArrayLists, HashMaps, Trees, Graphs, Stacks, Queues, Deque|
 | Algorithms | Sorting, Searching, BFS, Dijkstra, Dynamic Programming, NQueens | 
-| Android Development | Weather Report, GithubProfile App, DiceRoller, Password Generator, MemeShare App, CountDown Timer, Book Finder, Notepad App, Birthday Wish App, BMI Calculator, Compass App, Tic Tac Toe App, Voting App, Age Calculator| 
+| Android Development | Weather Report, GithubProfile App, DiceRoller, Password Generator, MemeShare App, CountDown Timer, Book Finder, Notepad App, Birthday Wish App, BMI Calculator, Compass App, Tic Tac Toe App, Voting App, Age Calculator, Binary to Decimal Converter, Coffee Ordering App, Currency Converter App, Media Player, QR Bar Code Scanner App, Random Number Generator, Wind Chill Calculator, Word Counter App| 
 | Machine Learning | Linear Regression, Logistic Regression, KMeans2d |
 | Networking & Security | Socket, Key Pair, Signature, Socket Programming, Thread Programming |
 | Operating System | ProducerConsumer |
@@ -79,6 +79,14 @@ Visit the [Android Development](https://github.com/dubesar/Java-A-Z/tree/master/
 - [Tic Tac Toe App](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects/TicTacToe)
 - [Voting App](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects/VotingApp)
 - [Age Calculator](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects/AgeCalculator)
+- [Binary to Decimal Converter](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects/BinnaryToDecimal)
+- [Coffee Ordering App](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects/Coffee%20ordering%20app)
+- [Currency Converter App](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects/Currency_Converter)
+- [Media Player](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects/Media_Player)
+- [Qr Bar Code Scanner App](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects/QRBARCodeScanner)
+- [Random Number Generator](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects/RandomNumberApplication)
+- [Wind Chill Calculator](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects/WindChillCalculator)
+- [Word Counter App](https://github.com/dubesar/Java-A-Z/tree/master/Android%20Projects/WordCounterApp)
 
 ___
 
