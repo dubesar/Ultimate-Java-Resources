@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/vMain_rootLayout"
+    android:background="@color/colorPrimary">
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_32sdp"
+        android:padding="@dimen/_16sdp"
+        android:text="Click Me"
+        android:textSize="@dimen/_26sdp"
+        android:textColor="@color/colorWhite"
+        android:textAlignment="center"
+        app:backgroundTint="@color/colorPrimaryDark"
+        app:cornerRadius="100dp"
+        app:strokeColor="@color/colorWhite"
+        app:strokeWidth="@dimen/_4sdp"
+        android:onClick="changeColor"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
