@@ -1,7 +1,7 @@
 ## Spin The Bottle Application
-
 A simple spin the bottle game in Android Studio.
-![Demo](./img/demo.png)
+
+<img src="./img/demo.png" width="300" />
 
 ## Concept 
 - We will display the bottle in an ImageView on which we set an onClickListener with the onClick xml attribute. 
