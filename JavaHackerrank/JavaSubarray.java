@@ -21,6 +21,6 @@ public class test{
                 }
             }
         }
-        System.out.println(tot);
+        System.out.println(tot);  
     }
 }
