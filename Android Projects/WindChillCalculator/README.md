@@ -2,7 +2,7 @@
 An application for calculate wind chill base on temperature and wind speed.
 
 # Screenshot
-![wind chill app](https://user-images.githubusercontent.com/27685763/95152229-c970fe80-07b6-11eb-9b77-99e448265ffa.jpeg)
+![wind chill app](https://user-images.githubusercontent.com/27685763/95153046-b2331080-07b8-11eb-8aba-89d64fa566e4.jpg)
 
 # Concept Used
 - TextView, EditText, Button, ConstraintLayout
