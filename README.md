@@ -108,4 +108,6 @@ Visit the [OOP](https://github.com/dubesar/Java-A-Z/tree/master/OOPs) repository
 
 
 #### Project Maintainers
+## Sarvesh Dubey
+## Kinal Mali
 This project is founded by [ Sarvesh Dubey ](https://github.com/dubesar) and actively maintained by [ Kunal Mali ](https://github.com/kunal299). A Machine Learning Developer And GCI - 2019 Mentor @tensorflow
