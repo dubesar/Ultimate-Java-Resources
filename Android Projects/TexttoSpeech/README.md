@@ -23,4 +23,5 @@ This app converts text to speech with pitch and speed rate functionalities.
 * User Interface (UI) will be improved
 
 
+![text to speech screenshot](https://user-images.githubusercontent.com/47222685/95206350-09100880-0800-11eb-9ed8-345a06ddd551.jpg)
 
