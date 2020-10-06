@@ -1,3 +1,7 @@
+//Question
+//https://leetcode.com/problems/merge-intervals/
+
+
 class Solution {
     public int[][] merge(int[][] arr) {
         Stack<Pair>st=new Stack<>();
