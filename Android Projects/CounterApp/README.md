@@ -1,5 +1,5 @@
-## Spin The Bottle Application
-A simple counter application in Android Studio.
+## Click Counter App
+A simple click counter application made in Android Studio using java.The app uses increment, decrement and reset features to increase,decrease and reset the number when clicked by the user.
 
 <img src="./img/demo.png" width="300" />
 
