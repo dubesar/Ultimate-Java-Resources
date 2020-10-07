@@ -161,9 +161,7 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
             case 'd':
                 switch (rc) {
                     case 0:
-                        matrix[0][0].setTextColor(ColorStateList.valueOf(Color.GREEN));
-                        matrix[1][1].setTextColor(ColorStateList.valueOf(Color.GREEN));
-                        matrix[2][2].setTextColor(ColorStateList.valueOf(Color.GREEN));
+                        for(int i = 0;i<matrix.length(); matrix[i][i++].setTextColor(ColorStateList.valueOf(Color.GREEN)));
                         break;
                     case 1:
                         matrix[2][0].setTextColor(ColorStateList.valueOf(Color.GREEN));
