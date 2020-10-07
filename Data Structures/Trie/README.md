@@ -30,7 +30,7 @@ A trie has 2 basic operations :
 
 - The following pseudo code will give a clearer idea :
 
-`void insert(String s)\
+`void insert(String s)<br/>
 {\
 	current_node = root;\
     for(every char in String s)\
