@@ -17,7 +17,7 @@ The following main topics have been contributed in this repository.
 - Android Projects
 - Machine Learning
 - Networking & Security
-- Objected-Oriented Programming (OOPs) 
+- Object-Oriented Programming (OOPs) 
 
 Each of the main topics have been divided into further sub categories. 
 
