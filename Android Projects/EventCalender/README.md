@@ -6,7 +6,7 @@ This is the simple library of calender, where you can set event on specific date
 For this version **we are not set any off or holiday** We will add in next version. So this library is simple to use.
 
 Sample
-![Alt Text](https://github.com/mahimrocky/EventCalender/blob/master/screen.png)
+<img src="https://github.com/mahimrocky/EventCalender/blob/master/screen.png" height="400" with="600">
 
 Following instructions you have to follow to use Expandable Card view
 
