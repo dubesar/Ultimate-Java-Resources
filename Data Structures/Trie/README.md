@@ -31,27 +31,16 @@ A trie has 2 basic operations :
 - The following pseudo code will give a clearer idea :
 
 `void insert(String s)`
-
 `{`  
-
-    `current_node = root;  `
-    
-    `for(every char in String s)  `
-    
+    `current_node = root;`
+    `for(every char in String s)`
     `{`  
-    
-        `if(child node belonging to current char is not present (ie null))  `
-	
-        `{  `
-	
-          `  child node = new Node();  `
-	  
-       ` }  `
-       
-       ` current_node = child_node;  `
-       
+        `if(child node belonging to current char is not present (ie null))`
+        `{`	
+          ` child node = new Node();`
+       ` }`
+       `current_node = child_node;`
     `}`
-    
 `}  `
 **Search or Lookup**
 
