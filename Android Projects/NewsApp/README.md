@@ -11,6 +11,7 @@ A simple news app where you can show news dynamically, more news automatic loade
 - MVVM (Model-View-View Model) Architecture
 - Recycler View
 - Material Card View
+- Shapeable Image View
 - Coordinator Layout
 - Frame Layout
 - AppBar Layout and Material Toolbar
