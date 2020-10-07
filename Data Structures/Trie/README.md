@@ -33,7 +33,7 @@ A trie has 2 basic operations :
 `void insert(String s)
 {
 
-	current_node = root;
+    current_node = root;
 	
     for(every char in String s)
     
@@ -50,8 +50,6 @@ A trie has 2 basic operations :
 	
     }
     
-
-
 }`
 
 **Search or Lookup**
