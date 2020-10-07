@@ -23,11 +23,49 @@ A simple login app where you can register new account that store it into databas
 # Resources Used
 
 - View Model
+
+```
+implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
+```
+
 - Material Design
+
+```
+implementation "com.google.android.material:material:1.2.1"
+```
+
 - Room Android
+
+```
+implementation "androidx.room:room-runtime:2.3.0-alpha02"
+implementation "androidx.room:room-rxjava3:2.3.0-alpha02"
+annotationProcessor "androidx.room:room-compiler:2.3.0-alpha02"
+```
+
 - RX Java
+
+```
+implementation "io.reactivex.rxjava3:rxjava:3.0.6"
+```
+
 - Rx Android
+
+```
+implementation "io.reactivex.rxjava3:rxandroid:3.0.0"
+```
+
 - Navigation Android
+
+```
+implementation "androidx.navigation:navigation-fragment:2.3.0"
+implementation "androidx.navigation:navigation-ui:2.3.0"
+```
+
+- Jake Warthon Date Time
+
+```
+implementation "com.jakewharton.threetenabp:threetenabp:1.2.4"
+```
 
 # Improvement
 
