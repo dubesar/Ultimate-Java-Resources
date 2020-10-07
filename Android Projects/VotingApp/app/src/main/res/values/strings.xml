@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Voting App</string>
+    <string name="question">Your best programming language is...</string>
+    <string name="javascript">JavaScript</string>
+    <string name="vote">vote</string>
+    <string name="python">Python</string>
+    <string name="c_c">C/C++</string>
+    <string name="java">Java</string>
+</resources>

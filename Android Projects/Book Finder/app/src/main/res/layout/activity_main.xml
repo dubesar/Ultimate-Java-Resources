@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_margin="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:orientation="horizontal"
+        >
+        <EditText
+
+            android:layout_width="260dp"
+            android:layout_marginRight="22dp"
+            android:layout_height="match_parent"
+            android:id="@+id/book_query_edit_text"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/find_button"
+            android:src="@drawable/find"
+            android:background="@android:color/white"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:id="@+id/book_list_view"
+        >
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/book_list_recycler"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

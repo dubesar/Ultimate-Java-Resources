@@ -13,4 +13,4 @@ Thanks a lot if you think this repository is worth contributing. There are some 
 
 6. We will be soon introducing contributions for Java Based Projects including Android in the current Repository. The projects should be such that it will help people to learn new stuffs.
 
-In the end it is reqired for you to **follow** the above rules.
+In the end it is required for you to **follow** the above rules.

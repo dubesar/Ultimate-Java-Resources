@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Currency_Converter</string>
+    <string-array name="currency">
+        <item>Euro</item>
+        <item>dollar</item>
+
+        <item>Dirham</item>
+        <item>Indian</item>
+    </string-array>
+
+    <string-array name="choose">
+        <item>Indian</item>
+        <item>dollar</item>
+
+
+    </string-array>
+
+</resources>
