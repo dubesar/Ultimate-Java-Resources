@@ -33,7 +33,7 @@ A trie has 2 basic operations :
 ```
 void insert(String s)
 {
-	current_node = root;
+    current_node = root;
     for(every char in String s)
     {
         if(child node belonging to current char is not present (ie null))
@@ -56,19 +56,19 @@ void insert(String s)
 
 - The following pseudo code will give a clearer idea :
 
-``boolean check(String s)  
-{  
-    for(every char in String s)  
-    {  
-        if(child node is null)      
-        {  
-            return false;  
-        }  
-    }  
-    return true;  
-}  ``
-
-
+```
+boolean check(String s)
+{
+    for(every char in String s)
+    {
+        if(child node is null)    
+        {
+            return false;
+        }
+    }
+    return true;
+}
+```
 
 ## Pictorial Representation
 ![Image](https://i.paste.pics/ABLGC.png?trs=4f6171b3351a08a2963bf2c4014e8cc2b0832a038161a39b0d676f60bb521a64)
