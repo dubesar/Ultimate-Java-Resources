@@ -29,18 +29,6 @@ import java.sql.Time;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
-/*
- *  ****************************************************************************
- *  * Created by : Md Tariqul Islam on 11/29/2018 at 3:03 PM.
- *  * Email : tariqul@w3engineers.com
- *  *
- *  * Purpose:
- *  *
- *  * Last edited by : Md Tariqul Islam on 11/29/2018.
- *  *
- *  * Last Reviewed by : <Reviewer Name> on <mm/dd/yy>
- *  ****************************************************************************
- */
 
 
 public class CalenderEvent extends LinearLayout implements View.OnClickListener {

@@ -1,17 +1,5 @@
 package com.skyhope.eventcalenderlibrary.model;
 
-/*
- *  ****************************************************************************
- *  * Created by : Md Tariqul Islam on 11/30/2018 at 11:40 AM.
- *  * Email : tariqul@w3engineers.com
- *  *
- *  * Purpose:
- *  *
- *  * Last edited by : Md Tariqul Islam on 11/30/2018.
- *  *
- *  * Last Reviewed by : <Reviewer Name> on <mm/dd/yy>
- *  ****************************************************************************
- */
 
 public class Event {
     private long time;

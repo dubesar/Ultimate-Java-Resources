@@ -6,18 +6,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 import java.util.TimeZone;
-/*
- *  ****************************************************************************
- *  * Created by : Md Tariqul Islam on 11/30/2018 at 12:04 PM.
- *  * Email : tariqul@w3engineers.com
- *  *
- *  * Purpose:
- *  *
- *  * Last edited by : Md Tariqul Islam on 11/30/2018.
- *  *
- *  * Last Reviewed by : <Reviewer Name> on <mm/dd/yy>
- *  ****************************************************************************
- */
+
 
 
 public class TimeUtil {

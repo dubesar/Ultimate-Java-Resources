@@ -1,18 +1,5 @@
 package com.skyhope.eventcalenderlibrary.model;
 
-/*
- *  ****************************************************************************
- *  * Created by : Md Tariqul Islam on 11/29/2018 at 6:49 PM.
- *  * Email : tariqul@w3engineers.com
- *  *
- *  * Purpose:
- *  *
- *  * Last edited by : Md Tariqul Islam on 11/29/2018.
- *  *
- *  * Last Reviewed by : <Reviewer Name> on <mm/dd/yy>
- *  ****************************************************************************
- */
-
 public class DayContainerModel {
     private int year;
     private String month;
