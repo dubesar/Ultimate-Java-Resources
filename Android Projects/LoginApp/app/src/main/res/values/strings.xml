@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LoginApp</string>
+    <string name="welcome">Welcome to Login App</string>
+    <string name="register">Register</string>
+    <string name="full_name">Full name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="enter">Enter</string>
+    <string name="already_have_an_account">Already have an account ?</string>
+    <string name="login_here">Login here</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="new_account">New account ?</string>
+    <string name="register_here">Register here</string>
+    <string name="your_account">Your account</string>
+    <string name="logout">Logout</string>
+</resources>
