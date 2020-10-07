@@ -30,7 +30,7 @@ A trie has 2 basic operations :
 
 - The following pseudo code will give a clearer idea :
 
-```
+```javascript
 void insert(String s)
 {
     current_node = root;
@@ -56,7 +56,7 @@ void insert(String s)
 
 - The following pseudo code will give a clearer idea :
 
-```
+```javascript
 boolean check(String s)
 {
     for(every char in String s)
