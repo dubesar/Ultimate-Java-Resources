@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Unit Converter App</string>
+    <string-array name="fromdistance">
+        <item>Miles</item>
+        <item>Kilometer</item>
+        <item>Meter</item>
+        <item>Centimeter</item>
+
+    </string-array>
+
+
+    <string-array name="todistance">
+        <item>Miles</item>
+        <item>Kilometer</item>
+        <item>Meter</item>
+        <item>Centimeter</item>
+
+    </string-array>
+
+
+    <string-array name="fromweight">
+        <item>Kilogram</item>
+        <item>Pound</item>
+        <item>Gram</item>
+    </string-array>
+
+    <string-array name="toweight">
+        <item>Kilogram</item>
+        <item>Pound</item>
+        <item>Gram</item>
+    </string-array>
+</resources>
