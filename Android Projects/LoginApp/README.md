@@ -22,19 +22,24 @@ A simple login app where you can register new account that store it into databas
 
 # Resources Used
 
-- View Model
+- **View Model**
 
 ```
 implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
 ```
 
-- Material Design
+[Read the documentation](https://developer.android.com/topic/libraries/architecture/viewmodel)
+
+- **Material Design**
 
 ```
 implementation "com.google.android.material:material:1.2.1"
 ```
 
-- Room Android
+[Read the documentation](https://github.com/material-components/material-components-android/blob/master/docs/getting-started.md)
+and you can see all available component in Material Design [in here](https://material.io/develop/android)
+
+- **Room Android**
 
 ```
 implementation "androidx.room:room-runtime:2.3.0-alpha02"
@@ -42,17 +47,23 @@ implementation "androidx.room:room-rxjava3:2.3.0-alpha02"
 annotationProcessor "androidx.room:room-compiler:2.3.0-alpha02"
 ```
 
+[Read the documentation](https://developer.android.com/training/data-storage/room)
+
 - RX Java
 
 ```
 implementation "io.reactivex.rxjava3:rxjava:3.0.6"
 ```
 
+[Read the documentation](https://github.com/ReactiveX/RxJava)
+
 - Rx Android
 
 ```
 implementation "io.reactivex.rxjava3:rxandroid:3.0.0"
 ```
+
+[Read the documentation](https://github.com/ReactiveX/RxAndroid)
 
 - Navigation Android
 
@@ -61,11 +72,15 @@ implementation "androidx.navigation:navigation-fragment:2.3.0"
 implementation "androidx.navigation:navigation-ui:2.3.0"
 ```
 
+[Read the documentation](https://developer.android.com/guide/navigation/navigation-getting-started)
+
 - Jake Warthon Date Time
 
 ```
 implementation "com.jakewharton.threetenabp:threetenabp:1.2.4"
 ```
+
+[Read the documentation](https://github.com/JakeWharton/ThreeTenABP)
 
 # Improvement
 
