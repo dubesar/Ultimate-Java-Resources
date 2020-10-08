@@ -6,3 +6,14 @@ This is a E-commerce Android application Application <br>
 <img src="https://user-images.githubusercontent.com/69913088/95423825-5a82d980-095f-11eb-949b-5511600b77a2.jpg" width="200" height="400" /> 
 <img src="https://user-images.githubusercontent.com/69913088/95423792-4f2fae00-095f-11eb-9d4a-cbaa5d795aad.jpg" width="200" height="400" />  
 <img src="https://user-images.githubusercontent.com/69913088/95423755-40e19200-095f-11eb-92f6-406f58076c1d.jpg" width="200" height="400" /> 
+<br>
+<br>
+## Concepts Used
+- Text View <br>
+- Material Design <br>
+- Relative Layouts <br>
+- Glide: An image loading and caching library for Android focused on smooth scrolling <br>
+- Image View <br>
+- ViewBinding <br>
+- RecyclerView <br>
+- pl.droidsonroids.gif Libraray
