@@ -30,7 +30,7 @@ A trie has 2 basic operations :
 
 - The following pseudo code will give a clearer idea :
 
-``javascript
+```javascript
 void insert(String s)
 
 {
@@ -54,7 +54,7 @@ void insert(String s)
     }
     
 }
-``
+```
 
 **Search or Lookup**
 
@@ -68,7 +68,7 @@ void insert(String s)
 
 - The following pseudo code will give a clearer idea :
 
-``javascript
+```javascript
 boolean check(String s)
 {
     for(every char in String s)
@@ -80,7 +80,7 @@ boolean check(String s)
     }
     return true;
 }
-``
+```
 
 
 
