@@ -1,5 +1,6 @@
+// String hashing is the way to convert a string into an integer known as a hash of that string.
+// An ideal hashing is the one in which there are minimum chances of collision (i.e 2 different strings having the same hash).
 import java.io.*;
-// Java implementation of the Polynomial Rolling Hash Function
 
 public class Polynomial_String_Hash
 {
