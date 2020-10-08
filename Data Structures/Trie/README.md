@@ -30,29 +30,20 @@ A trie has 2 basic operations :
 
 - The following pseudo code will give a clearer idea :
 
-``void insert(String s)
-
+```javascript
+void insert(String s)
 {
-
     current_node = root;
-    
     for(every char in String s)
-    
     {
-    
         if(child node belonging to current char is not present (ie null))
-	
         {
-	
-            child node = new Node();
-	    
+            child node = new Node();	    
         }
-	
         current_node = child_node;
-	
     }
-    
-}``
+}
+```
 
 **Search or Lookup**
 
@@ -66,7 +57,8 @@ A trie has 2 basic operations :
 
 - The following pseudo code will give a clearer idea :
 
-``boolean check(String s)
+```javascript
+boolean check(String s)
 {
     for(every char in String s)
     {
@@ -76,7 +68,8 @@ A trie has 2 basic operations :
         }
     }
     return true;
-}``
+}
+```
 
 
 
