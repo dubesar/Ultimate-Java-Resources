@@ -9,11 +9,11 @@ This is a E-commerce Android application Application <br>
 <br>
 <br>
 ## Concepts Used
-- Text View <br>
-- Material Design <br>
-- Relative Layouts <br>
-- Glide: An image loading and caching library for Android focused on smooth scrolling <br>
-- Image View <br>
-- ViewBinding <br>
-- RecyclerView <br>
+- Text View 
+- Material Design 
+- Relative Layouts 
+- Glide: An image loading and caching library for Android focused on smooth scrolling 
+- Image View 
+- ViewBinding 
+- RecyclerView 
 - pl.droidsonroids.gif Libraray
