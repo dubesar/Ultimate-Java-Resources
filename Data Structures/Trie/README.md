@@ -30,7 +30,8 @@ A trie has 2 basic operations :
 
 - The following pseudo code will give a clearer idea :
 
-``void insert(String s)
+``javascript
+void insert(String s)
 
 {
 
@@ -52,7 +53,8 @@ A trie has 2 basic operations :
 	
     }
     
-}``
+}
+``
 
 **Search or Lookup**
 
@@ -66,7 +68,8 @@ A trie has 2 basic operations :
 
 - The following pseudo code will give a clearer idea :
 
-``boolean check(String s)
+``javascript
+boolean check(String s)
 {
     for(every char in String s)
     {
@@ -76,7 +79,8 @@ A trie has 2 basic operations :
         }
     }
     return true;
-}``
+}
+``
 
 
 
