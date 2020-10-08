@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    app:cardElevation="2dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Item Name"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/txtDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:background="@color/design_default_color_primary"
+            android:padding="3dp"
+            android:text="Delete"
+            android:textColor="#FFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="25dp"
+            android:layout_toStartOf="@+id/txtDelete"
+            android:text="8.5"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>
