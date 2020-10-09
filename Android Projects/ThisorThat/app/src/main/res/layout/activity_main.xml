@@ -7,51 +7,53 @@
     android:background="@drawable/background"
     tools:context=".MainActivity">
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="350dp" />
-
     <ImageView
         android:id="@+id/leftImg"
-        android:src="@drawable/a1"
-        android:clickable="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:clickable="true"
+        android:contentDescription="@string/img_1"
+        android:focusable="true"
+        android:src="@drawable/a1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/rightImg"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline2"
-        tools:srcCompat="@tools:sample/avatars"
-        android:contentDescription="@string/img_1"
-        android:focusable="true" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:contentDescription="@string/img_2"
-        android:src="@drawable/a2"
         android:id="@+id/rightImg"
-        android:clickable="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:clickable="true"
+        android:contentDescription="@string/img_2"
+        android:focusable="true"
+        android:src="@drawable/a2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/leftImg"
-        app:layout_constraintTop_toTopOf="@+id/guideline2"
-        tools:srcCompat="@tools:sample/avatars"
-        android:focusable="true" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/title"
         android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="45sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/guideline2"
-        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/footer"
+        android:textStyle="italic"
+        android:textColor="@color/footer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
         android:gravity="center_horizontal" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
