@@ -2,7 +2,9 @@
 Want to find a match or Just choose someone random? here is a simple ThisorThat for you!
 
 ## Screenshot
-[screenshot] (screenshot/screenshot1.jpg)
+![screenshot_1] (https://www.dropbox.com/s/gts0t2j1zi0doeu/screenshot1.jpg?dl=0)
+![screenshot_2] (https://www.dropbox.com/s/f9qk7x6mb6i493n/screenshot2.jpg?dl=0)
+
 
 
 ## You need to know
