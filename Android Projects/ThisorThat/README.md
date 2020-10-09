@@ -2,7 +2,7 @@
 Want to find a match or Just choose someone random? here is a simple ThisorThat for you!
 
 ## Screenshot
-![screenshot] (screenshot/screenshot1.jpg)
+[screenshot] (screenshot/screenshot1.jpg)
 
 
 ## You need to know
