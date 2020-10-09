@@ -28,7 +28,7 @@ Each of the main topics have been divided into further sub categories.
 | Data Structures | LinkedList, Heaps, Arrays, ArrayLists, HashMaps, Trees, Graphs, Stacks, Queues, Deque|
 | Algorithms | Sorting, Searching, BFS, Dijkstra, Dynamic Programming, NQueens | 
 | Android Development | Weather Report, GithubProfile App, DiceRoller, Password Generator, MemeShare App, CountDown Timer, Book Finder, Notepad App, Birthday Wish App, BMI Calculator, Compass App, Tic Tac Toe App, Voting App, Age Calculator, Binary to Decimal Converter, Coffee Ordering App, Currency Converter App, Media Player, QR Bar Code Scanner App, Random Number Generator, Wind Chill Calculator, Word Counter App| 
-| Machine Learning | Linear Regression, Logistic Regression, KMeans2d |
+| Machine Learning | Linear Regression, Logistic Regression, KMeans2d, Random Forest |
 | Networking & Security | Socket, Key Pair, Signature, Socket Programming, Thread Programming |
 | Operating System | ProducerConsumer |
 | OOP | Abstraction, Encapsulation, Inheritance, Polymorphism, Manipulators, Virtual Function, Inline Function, Friend Function|
