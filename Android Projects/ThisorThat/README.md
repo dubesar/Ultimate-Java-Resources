@@ -2,8 +2,9 @@
 Want to find a match or Just choose someone random? here is a simple ThisorThat for you!
 
 ## Screenshot
-![screenshot_1](screenshot/screenshot1.jpg =300x180)
-![screenshot_2](screenshot/screenshot2.jpg =300x180)
+<img src="screenshot/screenshot1.jpg" />
+<img src="screenshot/screenshot2.jpg" />
+
 
 
 
