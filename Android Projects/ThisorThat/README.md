@@ -2,8 +2,8 @@
 Want to find a match or Just choose someone random? here is a simple ThisorThat for you!
 
 ## Screenshot
-![screenshot_1](https://www.dropbox.com/s/gts0t2j1zi0doeu/screenshot1.jpg)
-![screenshot_2](https://www.dropbox.com/s/f9qk7x6mb6i493n/screenshot2.jpg)
+![screenshot_1](screenshot/screenshot1.jpg)
+![screenshot_2](screenshot/screenshot2.jpg)
 
 
 
