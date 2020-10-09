@@ -3,7 +3,7 @@ Want to find a match or Just choose someone random? here is a simple ThisorThat 
 
 ## Screenshot
 ![screenshot] (screenshot/screenshot1.jpg)
-![screenshot] (screenshot/screenshot2.jpg)
+
 
 ## You need to know
 - Java Programming Basics
