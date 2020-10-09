@@ -15,26 +15,32 @@
         app:layout_constraintGuide_begin="350dp" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/leftImg"
+        android:src="@drawable/a1"
+        android:clickable="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintEnd_toStartOf="@+id/rightImg"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline2"
         tools:srcCompat="@tools:sample/avatars"
-        android:contentDescription="@string/img_1" />
+        android:contentDescription="@string/img_1"
+        android:focusable="true" />
 
     <ImageView
         android:contentDescription="@string/img_2"
-        android:id="@+id/imageView3"
+        android:src="@drawable/a2"
+        android:id="@+id/rightImg"
+        android:clickable="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/leftImg"
         app:layout_constraintTop_toTopOf="@+id/guideline2"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@tools:sample/avatars"
+        android:focusable="true" />
 
     <TextView
         android:id="@+id/textView"
@@ -43,7 +49,7 @@
         android:text="@string/title"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="45dp"
+        android:textSize="45sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintTop_toTopOf="parent"
