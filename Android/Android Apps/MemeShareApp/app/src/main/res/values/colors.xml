@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
-    <color name="shareButtonColor">#8F0FDD</color>
-    <color name="nextButtonColor">#FF3D00</color>
-    <color name="white">#FFFFFF</color>
-    <color name="yellow">#FFB300</color>
+    <color name="colorPrimary">#63E3F3</color>
+    <color name="colorPrimaryDark">#15BED3</color>
+    <color name="colorAccent">#2196F3</color>
+
+    <color name="textColorPrimary">#F2FFFFFF</color>
+    <color name="colorBackground">#E8E8E8</color>
 </resources>
