@@ -1,11 +1,3 @@
-/*
-    Builder pattern is a creational design pattern that lets you construct complex objects step by step.
-    The pattern allows you to produce different types and representations of an object
-    using the same construction code
-    Objective: To get rid of complex Constructors and making object creation easier to read.
-
-    link: https://refactoring.guru/design-patterns/builder
- */
 class AccountBuilder {
     private long accountNumber;
     private String owner;
