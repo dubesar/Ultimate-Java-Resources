@@ -4,8 +4,6 @@ Please refer to the pseudocode given there to understand this commit.
 It will help a great deal
  */
 
-import java.util.concurrent.ThreadLocalRandom;
-
 //The Parent abstract factory that now is used
 interface GUIFactory{
     Button createButton(); // first component
