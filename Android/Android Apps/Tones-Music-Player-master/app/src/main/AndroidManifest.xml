@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.tones">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/apple_music"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/circular_music_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PlayingActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/playing"/>
+        <activity android:name=".ListOfSongsInPlaylistActivity"
+            android:label="@string/playlist_songs"/>
+        <activity android:name=".ListOfSongsinAlbumsActivity"
+            android:label="@string/album_songs"/>
+    </application>
+
+</manifest>
