@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Tones</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tones">Tones</string>
+    <string name="title_activity_nav">NavActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="kshitij_suri">Kshitij Suri</string>
+    <string name="_0_00">0:00</string>
+    <string name="playlist_image">Playlist Image</string>
+    <string name="back">Go Back</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="album_cover">Album_cover</string>
+    <string name="playing">Now Playing</string>
+    <string name="playlist_songs">Playlist Songs</string>
+    <string name="album_songs">Album Songs</string>
+    <string name="list_name">List Name</string>
+    <string name="grid_view">Grid View</string>
+    <string name="list_view">List View</string>
+</resources>
