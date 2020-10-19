@@ -37,7 +37,6 @@ In java programming, multiple and hybrid inheritance is supported through interf
 
 1) **Single Inheritance** : When a class inherits another class, it is known as a single inheritance. In the example given below, Dog class inherits the Animal class, so there is the single inheritance.
 
-**`Syntax:` -**
  ```
 class Animal{  
 void eat(){
@@ -53,3 +52,44 @@ class TestInheritance{
 		d.eat();  
 }}  
 ```
+2) **Multilevel Inheritance** : When there is a chain of inheritance, it is known as multilevel inheritance. As you can see in the example given below, BabyDog class inherits the Dog class which again inherits the Animal class, so there is a multilevel inheritance.
+
+ ```
+class Animal{  
+void eat(){
+	System.out.println("eating...");}  
+}  
+class Dog extends Animal{  
+	void bark(){System.out.println("barking...");}  
+}  
+class TestInheritance{  
+	public static void main(String args[]){  
+		Dog d=new Dog();  
+		d.bark();  
+		d.eat();  
+}}  
+```
+
+3) **Hierarchical Inheritance** : When two or more classes inherits a single class, it is known as hierarchical inheritance. In the example given below, Dog and Cat classes inherits the Animal class, so there is hierarchical inheritance.
+
+ ```
+class Animal{  
+	void eat(){System.out.println("eating...");}  
+}  
+class Dog extends Animal{  
+	void bark(){System.out.println("barking...");}  
+}  
+class Cat extends Animal{  
+	void meow(){System.out.println("meowing...");}  
+}  
+class TestInheritance3{  
+	public static void main(String args[]){  
+		Cat c=new Cat();  
+		c.meow();  
+		c.eat();  
+}}  
+```
+
+## Why not multiple inheritabce not supported in java
+
+To reduce the complexity and simplify the language, multiple inheritance is not supported in java.
