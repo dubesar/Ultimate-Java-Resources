@@ -3,6 +3,10 @@ package co.ivanebernal.memegenerator.util;
 import android.text.Editable;
 import android.text.TextWatcher;
 
+/**
+ * A class that simplifies TextWatcher by providing default implementations of beforeTextChanged and afterTextChanged
+ */
+
 public abstract class SimpleTextWatcher implements TextWatcher {
 
     @Override

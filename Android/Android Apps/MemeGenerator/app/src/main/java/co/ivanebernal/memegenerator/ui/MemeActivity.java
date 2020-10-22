@@ -20,9 +20,7 @@ import androidx.lifecycle.ViewModelProvider;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import co.ivanebernal.memegenerator.R;
-import co.ivanebernal.memegenerator.ui.MemeViewModel;
 import co.ivanebernal.memegenerator.ui.MemeViewModel.Factory;
-import co.ivanebernal.memegenerator.ui.TextPropertiesView;
 import co.ivanebernal.memegenerator.ui.TextPropertiesView.OnPropertyChangeListener;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
@@ -105,7 +103,7 @@ public class MemeActivity extends AppCompatActivity {
         });
 
         saveMemeButton.setOnClickListener(view -> {
-            askGalleryPermission();
+            askSaveToGalleryPermission();
         });
 
         changeImageButton.setOnClickListener(view -> {
@@ -120,10 +118,11 @@ public class MemeActivity extends AppCompatActivity {
     }
 
     private void observeValues() {
+        //Top text
         mViewModel.getTopTextObservable().observe(this, this::setTopText);
         mViewModel.getTopTextColorObservable().observe(this, this::setTopTextColor);
         mViewModel.getTopTextSizeObservable().observe(this, this::setTopTextSize);
-
+        //Bottom text
         mViewModel.getBottomTextObservable().observe(this, this::setBottomText);
         mViewModel.getBottomTextColorObservable().observe(this, this::setBottomTextColor);
         mViewModel.getBottomTextSizeObservable().observe(this, this::setBottomTextSize);
@@ -167,13 +166,16 @@ public class MemeActivity extends AppCompatActivity {
         bottomTextProperties.setTextSize(size);
     }
 
-    private void askGalleryPermission() {
+    private void askSaveToGalleryPermission() {
+        //Check if we have permission to write to external storage
         if (ContextCompat.checkSelfPermission(this, permission.WRITE_EXTERNAL_STORAGE) ==
                 PackageManager.PERMISSION_GRANTED) {
             mViewModel.onSaveMemeClicked();
         } else if (shouldShowRequestPermissionRationale(permission.WRITE_EXTERNAL_STORAGE)) {
+            //Explain the user why we need this permission
             showExternalStoragePermissionRationale();
         } else {
+            //We don't have permission to write to external storage, request it
             requestPermissions(new String[] {permission.WRITE_EXTERNAL_STORAGE}, WRITE_EXTERNAL_STORAGE);
         }
     }
@@ -187,15 +189,16 @@ public class MemeActivity extends AppCompatActivity {
     }
 
     private void openImageSelection() {
+        //Get image from gallery
         Intent getIntent = new Intent(Intent.ACTION_GET_CONTENT);
         getIntent.setType("image/*");
-
+        //Get image from files
         Intent pickIntent = new Intent(Intent.ACTION_PICK);
         pickIntent.setDataAndType(android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI,"image/*");
-
+        //Create chooser between gallery or files
         Intent chooserIntent = Intent.createChooser(getIntent, "Select Image");
         chooserIntent.putExtra(Intent.EXTRA_INITIAL_INTENTS, new Intent[] {pickIntent});
-
+        //Show picker
         startActivityForResult(chooserIntent, PICK_IMAGE);
     }
 
@@ -208,8 +211,10 @@ public class MemeActivity extends AppCompatActivity {
             try {
                 Uri dataUri = data.getData();
                 if (dataUri == null) return;
+                //Decode data to bitmap
                 InputStream is = getContentResolver().openInputStream(dataUri);
                 Bitmap image = BitmapFactory.decodeStream(is);
+                //Set as base image for meme
                 mViewModel.setImage(image);
             } catch (FileNotFoundException e) {
                 Toast.makeText(this, e.getMessage(), Toast.LENGTH_LONG).show();
@@ -223,8 +228,10 @@ public class MemeActivity extends AppCompatActivity {
         switch (requestCode) {
             case WRITE_EXTERNAL_STORAGE:
                 if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    //We have permission to write to external storage, save meme
                     mViewModel.onSaveMemeClicked();
                 } else {
+                    //Permission was denied
                     showExternalStoragePermissionRationale();
                 }
                 return;

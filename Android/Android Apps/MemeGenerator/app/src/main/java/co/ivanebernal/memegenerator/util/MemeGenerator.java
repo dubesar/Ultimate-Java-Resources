@@ -32,30 +32,30 @@ public class MemeGenerator {
 
     public Bitmap generateMeme(Meme meme) {
         Bitmap bm = meme.getBaseImage();
-
+        //Get base image config
         Bitmap.Config bmConfig = bm.getConfig();
-
+        //Set ARGB_888 as default config
         if (bmConfig == null) {
             bmConfig = Config.ARGB_8888;
         }
-
+        //Copy bitmap and make it mutable so we can draw text
         bm = bm.copy(bmConfig, true);
-
+        //Create canvas in which we will join images and text
         Canvas canvas = new Canvas(bm);
-
+        //Extract properties for each text
         TextProperties topProperties = meme.getTopTextProperties();
         TextProperties bottomProperties = meme.getBottomTextProperties();
-
+        //Draw texts
         drawText(canvas, topProperties, TOP);
         drawText(canvas, bottomProperties, BOTTOM);
-
+        //Return new bitmap
         return bm;
     }
 
     private void drawText(final Canvas canvas, final TextProperties textProperties, @Position int position) {
-
+        //Get text paint
         TextPaint textPaint = getTextPaint(textProperties);
-
+        //Build Static layout, this will allow text to be the same width as the image no matter how long it is
         String text = textProperties.getText();
         int textWidth = (int) (canvas.getWidth() * 0.9f);
         int padding = (canvas.getWidth() - textWidth) / 2;
@@ -69,12 +69,13 @@ public class MemeGenerator {
                 .build();
 
         int yPosition;
+        //Decide if drawing text on top or bottom
         if (position == TOP) {
             yPosition = 100;
         } else {
             yPosition = canvas.getHeight() - textLayout.getHeight() - 100;
         }
-
+        //Draw text in canvas
         canvas.save();
         canvas.translate(padding, yPosition);
         textLayout.draw(canvas);
@@ -89,18 +90,15 @@ public class MemeGenerator {
         textPaint.setColor(topProperties.getColor());
         //Set text size
         textPaint.setTextSize((int) (topProperties.getSize() * fontScale));
-
+        //Change font to Impact (the most common meme font)
         Typeface impact = ResourcesCompat.getFont(mContext, R.font.impact);
-
         textPaint.setTypeface(impact);
-
+        //Return text paint
         return textPaint;
     }
 
     @IntDef({TOP, BOTTOM})
     @Retention(RetentionPolicy.SOURCE)
-    public @interface Position {
-
-    }
+    public @interface Position { }
 
 }

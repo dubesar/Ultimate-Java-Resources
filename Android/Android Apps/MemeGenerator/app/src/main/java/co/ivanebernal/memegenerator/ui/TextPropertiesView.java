@@ -14,6 +14,10 @@ import com.google.android.material.textfield.TextInputLayout;
 import yuku.ambilwarna.AmbilWarnaDialog;
 import yuku.ambilwarna.AmbilWarnaDialog.OnAmbilWarnaListener;
 
+
+/**
+ * Custom view class that contains all the widgets to edit the properties of a text
+ */
 public class TextPropertiesView extends ConstraintLayout {
 
     @BindView(R.id.memeText)
@@ -44,10 +48,13 @@ public class TextPropertiesView extends ConstraintLayout {
 
         @Override
         public void onOk(final AmbilWarnaDialog dialog, final int newColor) {
+            //Do not call listener if text is the same, this breaks an infinite loop
             if (newColor == color) {
                 return;
             }
+            //Update color
             color = newColor;
+            //Update color sample
             textColorSampleCard.setCardBackgroundColor(newColor);
             if (onPropertyChangeListener != null) {
                 onPropertyChangeListener.onColorChanged(newColor);
@@ -86,6 +93,7 @@ public class TextPropertiesView extends ConstraintLayout {
                 @Override
                 public void onTextChanged(final CharSequence charSequence, final int i, final int i1, final int i2) {
                     String newText = charSequence.toString();
+                    //Do not call listener if text is the same, this breaks an infinite loop
                     if (newText.equals(text)) {
                         return;
                     }
@@ -102,10 +110,12 @@ public class TextPropertiesView extends ConstraintLayout {
         textSizeValueEditText.addTextChangedListener(new SimpleTextWatcher() {
             @Override
             public void onTextChanged(final CharSequence charSequence, final int i, final int i1, final int i2) {
+                //Avoid exceptions from trying to get the Integer value of an empty String
                 if (charSequence.length() == 0) {
                     return;
                 }
                 Integer newSize = Integer.valueOf(charSequence.toString());
+                //Do not call listener if text is the same, this breaks an infinite loop
                 if (newSize.equals(size)) {
                     return;
                 }
@@ -117,7 +127,7 @@ public class TextPropertiesView extends ConstraintLayout {
             }
         });
 
-        //Set color click listener
+        //Show color picker dialog when text container is picked
         textColorContainer.setOnClickListener(view -> {
             AmbilWarnaDialog colorPickerDialog = new AmbilWarnaDialog(getContext(), color, colorPickerListener);
             colorPickerDialog.show();
@@ -125,6 +135,7 @@ public class TextPropertiesView extends ConstraintLayout {
     }
 
     public void setTextColor(Integer color) {
+        //If color is the same, do nothing
         if (color.equals(this.color)) {
             return;
         }
@@ -133,11 +144,13 @@ public class TextPropertiesView extends ConstraintLayout {
     }
 
     public void setText(String text) {
+        //If text is the same, do nothing
         if (text.equals(this.text)) {
             return;
         }
         this.text = text;
         EditText memeText = memeTextInput.getEditText();
+        //getEditText can return null, check to avoid NPE
         if (memeText == null) {
             return;
         }
@@ -145,6 +158,7 @@ public class TextPropertiesView extends ConstraintLayout {
     }
 
     public void setTextSize(Integer size) {
+        //If size is the same, do nothing
         if (size.equals(this.size)) {
             return;
         }
@@ -156,6 +170,9 @@ public class TextPropertiesView extends ConstraintLayout {
         this.onPropertyChangeListener = listener;
     }
 
+    /**
+     * This callback notifies text property changes to the observer
+     */
     public interface OnPropertyChangeListener {
 
         void onTextChanged(String text);

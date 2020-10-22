@@ -25,9 +25,13 @@ public class MemeViewModel extends ViewModel {
         mGenerator = generator;
         mSaver = saver;
         subscribeGeneratedMeme();
-        initValues();
+        initTextProperties();
     }
 
+    /**
+     * Subscribes a MediatorLiveData to every value that can change from the UI state so the generated
+     * meme is updated when any value changes
+     */
     private void subscribeGeneratedMeme() {
         generatedMeme.addSource(image, (Observer<? super Bitmap>) o -> generatedMeme.postValue(getGenerateMeme()));
         generatedMeme.addSource(topText, (Observer<? super String>) o -> generatedMeme.postValue(getGenerateMeme()));
@@ -43,7 +47,10 @@ public class MemeViewModel extends ViewModel {
                 (Observer<? super Integer>) o -> generatedMeme.postValue(getGenerateMeme()));
     }
 
-    private void initValues() {
+    /**
+     * Sets initial properties to each text
+     */
+    private void initTextProperties() {
         topText.postValue("Top text");
         topTextSize.postValue(140);
         topTextColor.postValue(Color.WHITE);
@@ -53,11 +60,13 @@ public class MemeViewModel extends ViewModel {
         bottomTextColor.postValue(Color.WHITE);
     }
 
+    //UI state
+
     private MutableLiveData<Bitmap> image = new MutableLiveData<>();
 
     public void setImage(Bitmap imageUri) {
         image.postValue(imageUri);
-        initValues();
+        initTextProperties();
     }
 
     private MutableLiveData<String> topText = new MutableLiveData<>();
@@ -127,6 +136,10 @@ public class MemeViewModel extends ViewModel {
         return generatedMeme;
     }
 
+    /**
+     * Create a new meme given the current UI state
+     * @return the generated meme
+     */
     private Bitmap getGenerateMeme() {
         if (image.getValue() == null) {
             return image.getValue();
@@ -141,6 +154,10 @@ public class MemeViewModel extends ViewModel {
         mSaver.saveMemeToGallery(generatedMeme.getValue());
     }
 
+    /**
+     * Factory for MemeViewModel, in this case we need this to instantiate this viewModel since we have the
+     * MemeGenerator and the MemeSaver dependencies
+     */
     public static class Factory implements ViewModelProvider.Factory {
 
         private Context mContext;

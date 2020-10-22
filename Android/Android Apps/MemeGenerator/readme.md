@@ -9,6 +9,7 @@ This app allows to upload an image, add text to its top and bottom, modify size 
 - [Canvas](https://developer.android.com/reference/android/graphics/Canvas?hl=en)
 - [Custom View](https://developer.android.com/training/custom-views/create-view)
 - [Save image to gallery](https://stackoverflow.com/questions/36624756/how-to-save-bitmap-to-android-gallery)
+- [Get image from gallery](https://stackoverflow.com/questions/5309190/android-pick-images-from-gallery)
 - [MVVM, ViewModel, LiveData](https://developer.android.com/jetpack/guide?hl=en)
 - [Bitmap](https://developer.android.com/reference/android/graphics/Bitmap)
 - [Fonts](https://stackoverflow.com/questions/27588965/how-to-use-custom-font-in-a-project-written-in-android-studio)
