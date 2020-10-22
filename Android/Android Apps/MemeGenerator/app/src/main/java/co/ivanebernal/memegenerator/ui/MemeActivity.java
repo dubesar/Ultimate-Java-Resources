@@ -1,4 +1,4 @@
-package co.ivanebernal.memegenerator;
+package co.ivanebernal.memegenerator.ui;
 
 import android.Manifest.permission;
 import android.content.Intent;
@@ -19,8 +19,11 @@ import androidx.core.content.ContextCompat;
 import androidx.lifecycle.ViewModelProvider;
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import co.ivanebernal.memegenerator.MemeViewModel.Factory;
-import co.ivanebernal.memegenerator.TextPropertiesView.OnPropertyChangeListener;
+import co.ivanebernal.memegenerator.R;
+import co.ivanebernal.memegenerator.ui.MemeViewModel;
+import co.ivanebernal.memegenerator.ui.MemeViewModel.Factory;
+import co.ivanebernal.memegenerator.ui.TextPropertiesView;
+import co.ivanebernal.memegenerator.ui.TextPropertiesView.OnPropertyChangeListener;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 

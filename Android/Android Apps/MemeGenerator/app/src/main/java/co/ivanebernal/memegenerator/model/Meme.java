@@ -1,4 +1,4 @@
-package co.ivanebernal.memegenerator;
+package co.ivanebernal.memegenerator.model;
 
 import android.graphics.Bitmap;
 

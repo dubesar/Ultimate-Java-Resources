@@ -1,6 +1,8 @@
-package co.ivanebernal.memegenerator;
+package co.ivanebernal.memegenerator.di;
 
 import android.content.Context;
+import co.ivanebernal.memegenerator.util.MemeGenerator;
+import co.ivanebernal.memegenerator.util.MemeSaver;
 
 public class DependencyInjection {
 

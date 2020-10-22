@@ -1,4 +1,4 @@
-package co.ivanebernal.memegenerator;
+package co.ivanebernal.memegenerator.util;
 
 import android.text.Editable;
 import android.text.TextWatcher;

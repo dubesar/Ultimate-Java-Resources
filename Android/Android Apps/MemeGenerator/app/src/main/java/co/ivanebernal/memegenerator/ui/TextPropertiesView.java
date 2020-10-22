@@ -1,4 +1,4 @@
-package co.ivanebernal.memegenerator;
+package co.ivanebernal.memegenerator.ui;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -8,6 +8,8 @@ import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import co.ivanebernal.memegenerator.R;
+import co.ivanebernal.memegenerator.util.SimpleTextWatcher;
 import com.google.android.material.textfield.TextInputLayout;
 import yuku.ambilwarna.AmbilWarnaDialog;
 import yuku.ambilwarna.AmbilWarnaDialog.OnAmbilWarnaListener;
@@ -154,7 +156,7 @@ public class TextPropertiesView extends ConstraintLayout {
         this.onPropertyChangeListener = listener;
     }
 
-    interface OnPropertyChangeListener {
+    public interface OnPropertyChangeListener {
 
         void onTextChanged(String text);
 

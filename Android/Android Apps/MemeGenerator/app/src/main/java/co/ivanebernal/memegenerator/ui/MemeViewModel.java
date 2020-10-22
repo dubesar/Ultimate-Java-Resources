@@ -1,4 +1,4 @@
-package co.ivanebernal.memegenerator;
+package co.ivanebernal.memegenerator.ui;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -10,6 +10,10 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
+import co.ivanebernal.memegenerator.di.DependencyInjection;
+import co.ivanebernal.memegenerator.model.Meme;
+import co.ivanebernal.memegenerator.util.MemeGenerator;
+import co.ivanebernal.memegenerator.util.MemeSaver;
 
 public class MemeViewModel extends ViewModel {
 
@@ -137,7 +141,7 @@ public class MemeViewModel extends ViewModel {
         mSaver.saveMemeToGallery(generatedMeme.getValue());
     }
 
-    static class Factory implements ViewModelProvider.Factory {
+    public static class Factory implements ViewModelProvider.Factory {
 
         private Context mContext;
 

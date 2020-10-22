@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MemeActivity">
+    tools:context=".ui.MemeActivity">
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context=".MemeActivity">
+        tools:context=".ui.MemeActivity">
 
         <ImageView
             android:id="@+id/memeImage"
@@ -44,7 +44,7 @@
                 android:layout_marginStart="24dp"
                 android:text="@string/top_text"/>
 
-            <co.ivanebernal.memegenerator.TextPropertiesView
+            <co.ivanebernal.memegenerator.ui.TextPropertiesView
                 android:id="@+id/topTextProperties"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
                 android:layout_marginStart="24dp"
                 android:text="@string/bottom_text"/>
 
-            <co.ivanebernal.memegenerator.TextPropertiesView
+            <co.ivanebernal.memegenerator.ui.TextPropertiesView
                 android:id="@+id/bottomTextProperties"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

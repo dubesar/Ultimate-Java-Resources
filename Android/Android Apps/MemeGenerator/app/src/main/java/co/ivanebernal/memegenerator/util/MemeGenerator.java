@@ -1,4 +1,4 @@
-package co.ivanebernal.memegenerator;
+package co.ivanebernal.memegenerator.util;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -12,6 +12,9 @@ import android.text.TextPaint;
 import android.text.TextUtils.TruncateAt;
 import androidx.annotation.IntDef;
 import androidx.core.content.res.ResourcesCompat;
+import co.ivanebernal.memegenerator.R;
+import co.ivanebernal.memegenerator.model.Meme;
+import co.ivanebernal.memegenerator.model.TextProperties;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
