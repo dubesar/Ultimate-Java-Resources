@@ -1,11 +1,51 @@
-The building block of C++ that leads to Object-Oriented programming is a Class.
-It is a user-defined data type, which holds its own data members and member functions, which can be accessed and used by creating an instance of that class. 
-A class is like a blueprint for an object.
+## Constructor In Java
 
-For Example: Consider the Class of Cars. There may be many cars with different names and brand but all of them will share some common properties like all of them will have 4 wheels, Speed Limit, Mileage range etc. So here, Car is the class and wheels, speed limits, mileage are their properties.
+Constructor is a block of code that initializes the newly created object. A constructor resembles an instance method in java but it’s not a method as it doesn’t have a return type.
+In short constructor and method are different(More on this at the end of this guide). People often refer constructor as special type of method in Java
 
-  A Class is a user-defined data-type which has data members and member functions.
-  Data members are the data variables and member functions are the functions used to manipulate these variables and together these data members and member functions define the properties and behaviour of the objects in a Class.
-  In the above example of class Car, the data member will be speed limit, mileage etc and member functions can apply brakes, increase speed etc.
 
-We can say that a Class in C++ is a blue-print representing a group of objects which shares some common properties and behaviours.
+Constructor has same name as the class and looks like this in a java code.
+
+```Java
+public class MyClass{
+   //This is the constructor
+   MyClass(){
+   }
+   ..
+}
+
+
+### How does a constructor work
+
+To understand the working of constructor, lets take an example. 
+
+```Java
+MyClass obj = new MyClass()
+
+The new keyword here creates the object of class MyClass and invokes the constructor to initialize this newly created object
+
+#### A simple constructor program in java
+
+Here created an object obj of class Hello and then displayed the instance variable name of the object. As you can see that the output is 'my constructor' which is what we have passed to the name during initialization in constructor. This shows that when creating the object obj the constructor got invoked. In this example we have used this keyword, which refers to the current object, object obj in this example. 
+
+**`Syntax:` -**
+ ```
+public class Hello {
+   String name;
+   //Constructor
+   Hello(){
+      this.name = "BeginnersBook.com";
+   }
+   public static void main(String[] args) {
+      Hello obj = new Hello();
+      System.out.println(obj.name);
+   }
+}
+```
+
+Output of the above code example
+my constructor
+
+
+
+
