@@ -21,6 +21,7 @@ To understand the working of constructor, lets take an example.
 
 ```Java
 MyClass obj = new MyClass()
+```
 
 The new keyword here creates the object of class MyClass and invokes the constructor to initialize this newly created object
 
@@ -44,7 +45,21 @@ public class Hello {
 ```
 
 Output of the above code example
-my constructor
+```my constructor```
+
+
+#### Types of Constructors
+There are three types of constructors in the java constructor. let's have a brief introduction to them.
+
+#### 1. Default constructor
+If you do not implement any constructor in your class, Java compiler inserts a default constructor into your code on your behalf. This constructor is known as default constructor
+
+#### 2. Parameterized constructor
+Constructor with arguments(or you can say parameters) is known as Parameterized constructor.
+
+#### 3. no-arg constructor
+
+Constructor with no arguments is known as no-arg constructor. The signature is same as default constructor, however body can have any code unlike default constructor where the body of the constructor is empty.
 
 
 
