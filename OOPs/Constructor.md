@@ -11,8 +11,8 @@ public class MyClass{
    //This is the constructor
    MyClass(){
    }
-   ..
 }
+```
 
 
 ### How does a constructor work
