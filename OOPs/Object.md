@@ -1,31 +1,54 @@
 ## Objects in Java
 
-This project is going to be an example to show you how to use Inheritance in Java (actually it is same for almost all
-the Object Oriented Programming Languages).
-
-Use abstract superclass if there is a clear class hierarchy. Abstract class can contain partial implementation (such as
-instance variables and methods). Interface cannot contain any implementation, but merely defines the behaviors.
+An entity that has state and behavior is known as an object.
+Some of the examples are chair, bike, marker, pen, table, car, etc. It can be physical or logical (tangible and intangible)
 
 
-## What is Inheritance ?
+#### What are the characteristics within an object
 
-In OOP, we often organize classes in hierarchy to avoid duplication and reduce redundancy. The classes in the lower
-hierarchy inherit all the variables (static attributes) and methods (dynamic behaviors) from the higher hierarchies. A
-class in the lower hierarchy is called a subclass (or derived, child, extended class). A class in the upper hierarchy is
-called a superclass (or base, parent class). By pulling out all the common variables and methods into the superclasses,
-and leave the specialized variables and methods in the subclasses, redundancy can be greatly reduced or eliminated as
-these common variables and methods do not need to be repeated in all the subclasses.
+1) **State** : represents the data (value) of an object.
+2) **Behavior** : represents the behavior (functionality) of an object such as deposit, withdraw, etc.
+3) **Identity**: An object identity is typically implemented via a unique ID. The value of the ID is not visible to the external user. However, it is used internally by the JVM to identify each object uniquely.
 
-A subclass inherits all the variables and methods from its superclasses, including its immediate parent as well as all
-the ancestors. It is important to note that a subclass is not a "subset" of a superclass. In contrast, subclass is a
-"superset" of a superclass. It is because a subclass inherits all the variables and methods of the superclass; in
-addition, it extends the superclass by providing more variables and methods.
 
-In Java, you define a subclass using the keyword "extends", e.g.,
-```Java
-class Goalkeeper extends SoccerPlayer {......}
-class MyApplet extends java.applet.Applet {.....}
-class Cylinder extends Circle {......}
+#### An object is an instance of a class. A class is a template or blueprint from which objects are created. So, an object is the instance(result) of a class.
+
+## Object Definitions:
+
+1) An object is a real-world entity.
+2) An object is a runtime entity.
+3) The object is an entity which has state and behavior.
+4) The object is an instance of a class.
+
+
+
+## Creating an Object
+
+As mentioned previously, a class provides the blueprints for objects. So basically, an object is created from a class. In Java, the new keyword is used to create new objects.
+There are three steps when creating an object from a class.
+
+1) **Declaration** − A variable declaration with a variable name with an object type.
+2) **Instantiation** − The 'new' keyword is used to create the object.
+3) **Initialization** − The 'new' keyword is followed by a call to a constructor. This call initializes the new object.
+
+
+Following is an example of creating an object −,
+**`Syntax:` -**
+ ```
+public class Puppy {
+   public Puppy(String name) {
+      // This constructor has one parameter, name.
+      System.out.println("Passed Name is :" + name );
+   }
+
+   public static void main(String []args) {
+      // Following statement would create an object myPuppy
+      Puppy myPuppy = new Puppy( "tommy" );
+   }
+}
+```
+
+
 
 
 ## Types of Inheritance in java
@@ -36,19 +59,4 @@ In java programming, multiple and hybrid inheritance is supported through interf
 
 1) **Single Inheritance** : When a class inherits another class, it is known as a single inheritance. In the example given below, Dog class inherits the Animal class, so there is the single inheritance.
 
-**`Syntax:` -**
- ```
-class Animal{  
-void eat(){
-	System.out.println("eating...");}  
-}  
-class Dog extends Animal{  
-	void bark(){System.out.println("barking...");}  
-}  
-class TestInheritance{  
-	public static void main(String args[]){  
-		Dog d=new Dog();  
-		d.bark();  
-		d.eat();  
-}}  
-```
+
