@@ -1,6 +1,10 @@
 import java.util.Arrays;
 
 public class Anagram {
+    /**
+    Given an array of strings to the method isAnagram(@param String[])
+    compares the strings and finds out if the string is anagram to the other string in the same array.
+     */
     // Time Complexity: O(nLogn)
     public static void isAnagram(String[] arr){
 
@@ -20,6 +24,10 @@ public class Anagram {
         }
     }
 
+    /**
+        areAnagram(@param String, @param String) takes two strings and returns a boolean value whether the passed strings 
+        are anagram or not.
+     */
     public static boolean areAnagram(String str1, String str2){
 
         if (str1.length() != str2.length()) return false;
