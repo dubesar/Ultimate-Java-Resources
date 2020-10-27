@@ -5,7 +5,7 @@ public class Subset {
     /**
     subsetSumPossible(@param set, @param sum) is a function to check if it is possible 
     to obtain the @param sum from the subset of integer array @param set.
-    Returns true if it's possbile to obtain the @param sum from the subset or else returns false.
+    Returns true if it's possible to obtain the @param sum from the subset or else returns false.
      */
     private static boolean subsetSumPossible(int[] set, int sum){
         int[][] table = new int[set.length+1][sum+1];
