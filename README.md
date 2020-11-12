@@ -3,8 +3,6 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com) 
 
-[![HitCount](http://hits.dwyl.com/dubesar/Java-A-Z.svg)](http://hits.dwyl.com/dubesar/Java-A-Z)
-
 
 **Give a Star, if you like the Repository and if you consider it as a useful resource for learning Java**
 
