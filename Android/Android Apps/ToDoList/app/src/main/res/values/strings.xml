@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="enter_new_task">Enter new Task</string>
+    <string name="empty_view_text">Tap on the \'+\' button to add tasks.</string>
+    <string name="remove_tasks">Remove</string>
+    <string name="made_with_love">Made with</string>
+</resources>

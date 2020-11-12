@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recycler_view_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginEnd="8dp"
+    android:background="@drawable/task_background"
+    android:clickable="true"
+    android:focusable="true"
+    android:longClickable="true"
+    android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/item_checkbox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/item_edit_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="9"
+        android:background="#00FFFFFF"
+        android:hint="@string/enter_new_task"
+        android:imeOptions="actionDone"
+        android:importantForAutofill="no"
+        android:inputType="textShortMessage|textNoSuggestions" />
+</LinearLayout>
