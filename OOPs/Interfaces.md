@@ -3,7 +3,7 @@
 * An Interface is a collection of abstract methods therefore achieving 100% abstraction. It is a blueprint of a class.
 An interface is defined as:
 
-```
+```java
 interface Animal{
 
 }
@@ -12,7 +12,7 @@ Here above I have created an interface named Animal.
 
 * In an interface, all the methods have empty bodies. 
 
-```
+```java
 interface Animal{
     void eat();
     void sleep();
@@ -23,7 +23,7 @@ Here I have declared two methods eat() and sleep(). These methods are by default
 * An Interface can contain any number of methods.
 There can be any number of methods in an interface
 
-```
+```java
 interface Animal{
     void eat();
     void sleep();
@@ -33,7 +33,7 @@ interface Animal{
 
 * A class will always implement an interface.
 
-```
+```java
 interface Animal{
     void eat();
     void sleep();
@@ -46,7 +46,7 @@ In the above code the class Animal will implement the interface Animal to use it
 
 * A class which extends the interface needs to define all the methods present in the interface, unless abstract.
 
-```
+```java
 interface Animal{
     void eat();
     void sleep();
@@ -65,7 +65,7 @@ Here the class Dog has to define all the methods of the interface Animal because
 
 * An interface always extends another interface but implemented by a class.
 
-```
+```java
 interface LivingBeings{
     void walk();
     void breathe();
@@ -93,7 +93,7 @@ class Dog implements Animal{
 
 As we know that java do not allow multiple inheritence. So to ivercome this we can make interfaces and a class can implement any number of these interfaces.
 
-```
+```java
 interface LivingBeings{
     void walk();
     void breathe();
