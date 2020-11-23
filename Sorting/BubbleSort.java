@@ -3,7 +3,7 @@ package Sorting;
 import java.util.Arrays;
 
 /***************************************************
- * Sorts a array through BubbleSort(InsertionSort).
+ * Sorts a array through BubbleSort.
  *
  * @author https://github.com/AkMo3
  *
