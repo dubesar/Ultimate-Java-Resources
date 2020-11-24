@@ -41,11 +41,7 @@ public class StackUsingArrayList {
     // Checks for empty Stack
      
      boolean isEmpty() {
-          if (stackList.isEmpty()){
-               return true;
-          } else {
-                return false;
-          }
+         return stackList.isEmpty();
      }
 
     // Top element of stack
