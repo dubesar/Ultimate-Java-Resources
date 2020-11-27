@@ -1,4 +1,4 @@
-# Link List
+# Linked List
 
 A Linked list is a linear collection of data elements, often called nodes. Where the linear order 
 given by mean of pointers. That is each node is divided into two parts: the data part and the link 
