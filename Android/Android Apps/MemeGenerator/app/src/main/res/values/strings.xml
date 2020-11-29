@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Meme Generator</string>
+    <string name="top_text">Top text</string>
+    <string name="bottom_text">Bottom text</string>
+    <string name="generate_meme">Generate meme</string>
+    <string name="text_size">Text size</string>
+    <string name="text_color">Text color</string>
+    <string name="max_text_size">Max text size</string>
+    <string name="text">Text</string>
+    <string name="submit_image">Submit image</string>
+    <string name="save_image">Save image</string>
+    <string name="change_image">Change image</string>
+</resources>
