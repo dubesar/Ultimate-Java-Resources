@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CalenderEvent">
+        <attr name="calender_background" format="color" />
+        <attr name="selector_color" format="color" />
+        <attr name="selected_day_text_color" format="color" />
+        <attr name="current_month_day_color" format="color" />
+        <attr name="off_month_day_color" format="color" />
+        <attr name="month_color" format="color" />
+        <attr name="week_name_color" format="color" />
+        <attr name="next_icon" format="reference" />
+        <attr name="previous_icon" format="reference" />
+    </declare-styleable>
+
+</resources>
