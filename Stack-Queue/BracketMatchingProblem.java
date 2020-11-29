@@ -35,7 +35,7 @@ public class BalancedParan
 
 		boolean isEmpty() 
 		{ 
-			return (top == -1) ? true : false; 
+			return top == -1;
 		} 
 	} 
 	
@@ -98,13 +98,8 @@ public class BalancedParan
 	/* If there is something left in expression 
 		then there is a starting parenthesis without 
 		a closing parenthesis */
-		
-	if (st.isEmpty()) 
-		return true; /*balanced*/
-	else
-		{ /*not balanced*/
-			return false; 
-		} 
+
+		return st.isEmpty();
 	} 
 	public static void main(String[] args) 
 	{ 

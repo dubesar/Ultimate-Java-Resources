@@ -8,9 +8,8 @@ Android app to fetch and display Github user profiles.
 * Using git the right way- forking, cloning and making pull requests.
 
 ## Screenshots
-<img src="Attachments/home.jpeg" width="180"/>
-<img src="Attachments/sd.jpeg" width="180"/>
-<img src="Attachments/google.jpeg" width="180"/>
+<img src="Attachments/main.png" width="180"/>
+<img src="Attachments/profile.png" width="180"/>
 
 ## Usage 
 * Clone this repository.

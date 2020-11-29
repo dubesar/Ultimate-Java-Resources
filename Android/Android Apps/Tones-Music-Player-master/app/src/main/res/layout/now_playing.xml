@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/playing_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:id="@+id/holder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/play_pause_btn"
+        android:layout_marginBottom="40dp"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@drawable/blur_music">
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="16dp"
+            android:id="@+id/back_to_list"
+            android:background="@drawable/left"
+            android:contentDescription="@string/back" />
+
+        <ImageView
+            android:id="@+id/center_image"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/song_name"
+            android:layout_marginTop="100dp"
+            android:paddingStart="25dp"
+            android:paddingBottom="16dp"
+            android:paddingEnd="25dp"
+            tools:src="@drawable/music_player"
+            android:contentDescription="@string/album_cover" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Song Name"
+            android:id="@+id/song_name"
+            android:textColor="@color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="60dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="24sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Artist Name"
+            android:id="@+id/artist_name_playing"
+            android:textColor="@color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="16dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/play_pause_btn"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:text="@string/_0_00" />
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/play_pause_btn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        tools:text="0:00" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/play_pause_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/pause_image" />
+
+    <ImageView
+        android:id="@+id/btn_previous"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="51dp"
+        android:layout_marginStart="60dp"
+        android:src="@drawable/back"
+        android:contentDescription="@string/next" />
+
+    <ImageView
+        android:id="@+id/btn_next"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="51dp"
+        android:layout_marginEnd="60dp"
+        android:src="@drawable/next"
+        android:contentDescription="@string/previous" />
+
+</RelativeLayout>

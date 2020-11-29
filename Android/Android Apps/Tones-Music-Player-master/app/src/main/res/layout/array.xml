@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/album_cover"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_margin="5dp"
+        android:src="@drawable/music_player"
+        android:contentDescription="@string/album_cover" />
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/album_cover"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/album_song"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:maxLines="1"
+            android:scrollbars="horizontal"
+            android:textColor="@color/black"
+            tools:text="Name" />
+
+        <TextView
+            android:id="@+id/number_songs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:maxLines="1"
+            android:scrollbars="horizontal"
+            android:textColor="@color/black"
+            tools:text="Contains 0 Songs" />
+
+    </LinearLayout>
+
+</RelativeLayout>

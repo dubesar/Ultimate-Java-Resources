@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ListOfSongsInPlaylistActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="@color/black">
+
+        <ImageView
+            android:id="@+id/cover_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/playlist_image"
+            android:src="@drawable/music_player" />
+
+        <ImageButton
+            android:id="@+id/back_to_array"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/left"
+            android:contentDescription="@string/back"/>
+
+        <TextView
+            android:id="@+id/list_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@id/back_to_array"
+            android:text="@string/list_name"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/play_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="14dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/shuffle" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/name_of_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:text="Playlist 1" />
+
+    <ListView
+        android:id="@+id/album_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:drawSelectorOnTop="true"
+        android:orientation="vertical" />
+
+</LinearLayout>

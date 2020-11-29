@@ -14,6 +14,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Examples" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/JavaHackerrank" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Stack-Queue" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Design Patterns" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
