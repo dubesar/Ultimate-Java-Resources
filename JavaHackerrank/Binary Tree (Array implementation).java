@@ -1,4 +1,4 @@
-Binary Tree (Array implementation)
+/*Binary Tree (Array implementation)
 
 Talking about representation, trees can be represented in two ways: 
 1) Dynamic Node Representation (Linked Representation). 
@@ -25,6 +25,7 @@ OR,
 
 // JAVA implementation of tree using array
 // numbering starting from 0 to n-1.
+*/
 
 import java.util.*;
 import java.lang.*;
