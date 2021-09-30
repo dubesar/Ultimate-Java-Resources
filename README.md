@@ -4,7 +4,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com) 
 
 
-**Give a Star, if you like the Repository and if you consider it as a useful resource for learning Java**
+**Give a Star, if you like the Repository and if you consider it as a useful resource for learning Java (Accepting Pull Request for Hacktoberfest 21)**
 
 ### Introduction
 This repository aims at helping new Java developers. It contains examples of simple programs and algorithms. 
