@@ -2,4 +2,6 @@
     <string name="app_name">Meme Share</string>
     <string name="share">Share</string>
     <string name="next">Next</string>
+    <string name="image_view_meme_content_description">Meme Image</string>
+    <string name="dark_mode">Dark mode</string>
 </resources>

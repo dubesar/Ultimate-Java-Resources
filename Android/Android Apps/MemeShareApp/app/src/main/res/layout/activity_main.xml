@@ -10,49 +10,48 @@
         android:id="@+id/memeImageView"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:background="@color/colorBackground"
+        android:contentDescription="@string/image_view_meme_content_description"
         app:layout_constraintBottom_toTopOf="@id/shareButton"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars"
-        android:background="#000000"
-        />
+        tools:srcCompat="@tools:sample/avatars" />
 
     <ProgressBar
         android:id="@+id/progressBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="@id/memeImageView"
         app:layout_constraintBottom_toBottomOf="@id/memeImageView"
         app:layout_constraintLeft_toLeftOf="@id/memeImageView"
         app:layout_constraintRight_toRightOf="@id/memeImageView"
-        />
+        app:layout_constraintTop_toTopOf="@id/memeImageView" />
 
     <Button
         android:id="@+id/shareButton"
+        android:drawableStart="@drawable/ic_baseline_share"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
         android:padding="32dp"
         android:text="@string/share"
+        android:textColor="@color/textColorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toLeftOf="@id/guideline"
-        android:background="@color/colorPrimaryDark"
-        android:textColor="@color/white"
-        />
+        app:layout_constraintRight_toLeftOf="@id/guideline" />
 
     <Button
+        android:drawableEnd="@drawable/ic_baseline_navigate_next"
         android:id="@+id/nextButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
         android:padding="32dp"
         android:text="@string/next"
+        android:textColor="@color/textColorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toRightOf="@id/guideline"
-        android:background="@color/nextButtonColor"
-        android:textColor="@color/white"
-        />
+        app:layout_constraintRight_toRightOf="parent" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"

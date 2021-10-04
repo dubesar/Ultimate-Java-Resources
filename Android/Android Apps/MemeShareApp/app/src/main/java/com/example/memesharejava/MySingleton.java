@@ -1,27 +1,26 @@
 package com.example.memesharejava;
 
 import android.content.Context;
+
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 
-import static android.icu.lang.UCharacter.GraphemeClusterBreak.T;
-
 public class MySingleton {
     private static MySingleton instance;
     public RequestQueue requestQueue;
-    private static Context ctx;
+    private Context ctx;
 
     private MySingleton(Context context) {
         ctx = context;
         requestQueue = getRequestQueue();
-
     }
 
     public static synchronized MySingleton getInstance(Context context) {
         if (instance == null) {
             instance = new MySingleton(context);
         }
+
         return instance;
     }
 
