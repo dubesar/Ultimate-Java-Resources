@@ -1,0 +1,3 @@
+http://web.mit.edu/15.053/www/AMP-Chapter-11.pdf
+
+# Chapter from an MIT book on Dynamic programming
