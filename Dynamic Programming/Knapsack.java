@@ -17,7 +17,7 @@ class Knapsack {
   
     // A Customized max function to return max value of a & b
     static int max(int a, int b) {
-        if(a>b) return a;
+        if(a > b) return a;
         return b;
     }
 
@@ -57,6 +57,6 @@ class Knapsack {
         
         int  W = 50; // Maximum capacity of the Knapsack
 
-        System.out.println("The maximum profit obtained is: "+knapSack(W, weights, profits, N)); 
+        System.out.println("The maximum profit obtained is: "+ knapSack(W, weights, profits, N)); 
     } 
 }
