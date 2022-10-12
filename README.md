@@ -4,7 +4,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com) 
 
 
-**Give a Star, if you like the Repository and if you consider it as a useful resource for learning Java (Accepting Pull Request for Hacktoberfest 21)**
+**Give a Star, if you like the Repository and if you consider it as a useful resource for learning Java (Accepting Pull Request for Hacktoberfest 22)**
 
 ### Introduction
 This repository aims at helping new Java developers. It contains examples of simple programs and algorithms. 
@@ -44,7 +44,7 @@ Visit the [Data Structures](https://github.com/dubesar/Java-A-Z/tree/master/Data
 - ArrayList
 - BST
 - HashMap, HashSet, TreeMap
-- Loops
+- Loops, [Arrays](https://www.codeforhunger.com/2021/11/What%20are%20arrays%20in%20java.html)
 - Segment Tree, Tree Traversal, Fenwick Tree
 
 ___
@@ -127,4 +127,4 @@ Visit the [OOP](https://github.com/dubesar/Java-A-Z/tree/master/OOPs) repository
 
 
 #### Project Maintainers
-This project is founded by [ Sarvesh Dubey ](https://github.com/dubesar) and actively maintained by [ Kunal Mali ](https://github.com/kunal299). A Machine Learning Developer And GCI - 2019 Mentor @tensorflow
+This project is founded by [ Sarvesh Dubey ](https://github.com/dubesar). A Software Developer working at Amazon Web Services.
