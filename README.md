@@ -44,7 +44,7 @@ Visit the [Data Structures](https://github.com/dubesar/Java-A-Z/tree/master/Data
 - ArrayList
 - BST
 - HashMap, HashSet, TreeMap
-- Loops, [Arrays](https://www.codeforhunger.com/2021/11/What%20are%20arrays%20in%20java.html)
+- Loops, [Arrays](https://codeforhunger.blogspot.com/2021/11/What%20are%20arrays%20in%20java.html)
 - Segment Tree, Tree Traversal, Fenwick Tree
 
 ___
