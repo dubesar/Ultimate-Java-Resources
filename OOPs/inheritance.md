@@ -42,3 +42,20 @@ class Science extends Faculty {
        
      Salary is:30000.0
      Bonous is:2000.0
+
+### Facts About Constructors in Inheritance
+A sub class constructor is used to initialise the instance variables of both the subclass and super class. The sub class constructor invokes the super class constructor either implicitly or by using the keyword super.
+
+1). super() — invoking the non-parameterized constructor of super class.
+
+2). super(parameters_list) — invoking the parametrized constructor of super class.
+
+### Note:
+1). If the super class definition contains a parametrized constructor then the sub class constructor must have a parametrized constructor explicitly invoking a super(…).
+
+2). Explicit invocation of a super class constructor must be the first line of sub class constructor.
+
+### Method Overriding
+A concept which occurs when an instance method in a sub class hides method of the super class due to similar declarations. An over-ridden super class method can be invoked using the super keyword.
+>Syntax:
+    super.overridenMethod()
