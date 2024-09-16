@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:gravity="bottom"
+    android:paddingStart="10dp"
+    android:background="#2BA1D6">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/mall"
+        android:background="#FFFFFF"
+        android:layout_marginRight="10dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Mall"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your service is our service"
+        android:textStyle="italic"
+        android:textColor="#FFF"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/txtWebsite"/>
+
+
+</LinearLayout>

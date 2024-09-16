@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/welcome"
+        android:background="#FFFFFF"
+
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:text="Powered By Gagandeep Kumar"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"/>
+
+
+
+
+
+</RelativeLayout>

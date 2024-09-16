@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp">
+
+    <LinearLayout
+        android:id="@+id/itemsLinLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Items:" />
+
+        <TextView
+            android:id="@+id/txtItems"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="item names" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/priceLinLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/itemsLinLayout"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Price:" />
+
+        <TextView
+            android:id="@+id/txtPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="price" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/addressLinLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/priceLinLayout"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address:" />
+
+        <TextView
+            android:id="@+id/txtAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="address" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/phoneLinLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addressLinLayout"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number:" />
+
+        <TextView
+            android:id="@+id/txtPhoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="phone number" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtPaymentDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneLinLayout"
+        android:layout_marginTop="20dp"
+        android:text="Select a payment method:"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rgPaymentMethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPaymentDescription"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbCreditCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Credit Card" />
+
+        <RadioButton
+            android:id="@+id/rbPayPal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="PayPal" />
+
+    </RadioGroup>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Back" />
+
+        <Button
+            android:id="@+id/btnCheckout"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_toEndOf="@+id/btnBack"
+            android:text="Checkout" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
