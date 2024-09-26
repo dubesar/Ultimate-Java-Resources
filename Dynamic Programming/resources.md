@@ -22,3 +22,5 @@ Below is a list of resources related to Dynamic Programming.
 15. [https://www.geeksforgeeks.org/solve-dynamic-programming-problem/](https://www.geeksforgeeks.org/solve-dynamic-programming-problem/) step by step on How to solve a dynamic programming problem.
 16. [https://medium.com/educative/5-dynamic-programming-problems-and-solutions-for-your-next-coding-interview-ad938bce2351](https://medium.com/educative/5-dynamic-programming-problems-and-solutions-for-your-next-coding-interview-ad938bce2351) 6 Dynamic Programming problems and solutions for your next coding interview.
 17. [https://www.coursera.org/lecture/algorithms-greedy/principles-of-dynamic-programming-VEc7L](https://www.coursera.org/lecture/algorithms-greedy/principles-of-dynamic-programming-VEc7L) Principles of Dynamic Programming.
+18. [https://www.youtube.com/watch?v=-NTaXJ7BBXs](https://www.youtube.com/watch?v=-NTaXJ7BBXs) The ULTIMATE technique to solve Dynamic Programming Problems using Coin Problem
+19. [https://www.youtube.com/watch?v=y6kpGJBI7t0&t=2s](https://www.youtube.com/watch?v=y6kpGJBI7t0&t=2s) 0/1 Knapsack Problem Explaination
