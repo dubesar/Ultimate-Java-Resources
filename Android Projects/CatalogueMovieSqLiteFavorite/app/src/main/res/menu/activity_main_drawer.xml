@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/now_playing"
+            android:icon="@drawable/baseline_play_circle_outline_black_24dp"
+            android:title="@string/now_playing" />
+        <item
+            android:id="@+id/upcoming"
+            android:icon="@drawable/baseline_av_timer_black_24dp"
+            android:title="@string/upcoming" />
+        <item
+            android:id="@+id/favorite"
+            android:icon="@drawable/ic_stars_black_24dp"
+            android:title="@string/favorite" />
+
+    </group>
+
+
+</menu>
