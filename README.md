@@ -43,8 +43,9 @@ Visit the [Data Structures](https://github.com/dubesar/Java-A-Z/tree/master/Data
 - Max and Min Heaps, Priority Queues
 - ArrayList
 - BST
-- HashMap, HashSet, TreeMap
-- Loops, [Arrays](https://www.codeforhunger.com/2021/11/What%20are%20arrays%20in%20java.html)
+- HashSet, TreeMap, [HashMap](https://www.youtube.com/watch?v=cymYSiPCCrg)
+
+- Loops, Arrays
 - Segment Tree, Tree Traversal, Fenwick Tree
 
 ___
