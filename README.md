@@ -125,6 +125,3 @@ Visit the [OOP](https://github.com/dubesar/Java-A-Z/tree/master/OOPs) repository
 - [Manipulators](https://github.com/dubesar/Java-A-Z/blob/master/OOPs/encapsulation.md)
 - [Polymorphism](https://github.com/dubesar/Java-A-Z/blob/master/OOPs/encapsulation.md)
 
-
-#### Project Maintainers
-This project is founded by [ Sarvesh Dubey ](https://github.com/dubesar). A Software Developer working at Amazon Web Services.
